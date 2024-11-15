@@ -1,0 +1,61 @@
+/* Reset de base */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ color: #333;
+ background-color: #f4f4f9;
+}
+
+header {
+ background-color: #003366;
+ color: #fff;
+ padding: 2rem;
+ text-align: center;
+}
+
+section {
+ padding: 2rem;
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+h2 {
+ color: #003366;
+ margin-bottom: 1rem;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+li {
+ margin-bottom: 0.5rem;
+}
+
+a {
+ color: #0066cc;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+footer {
+ text-align: center;
+ padding: 1rem;
+ background-color: #003366;
+ color: #fff;
+ margin-top: 2rem;
+}
+
+#contact a {
+ color: #0066cc;
+}
