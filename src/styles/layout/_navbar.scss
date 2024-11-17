@@ -1,0 +1,28 @@
+@import '../variables';
+
+nav{
+ display:sticky;
+ top:0;
+ width:100%;
+
+ ul{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 5vw;
+  width:80vw;
+  margin:auto;
+  li{
+   background-color: $thirdYellow2;
+   color:$secondaryAnthracite1;
+   border-radius: 5px;
+   font-weight: bold;
+   padding: 20px;
+   text-align: center;
+   cursor: pointer;
+   &:hover{
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
+   }
+  }
+
+ }
+}

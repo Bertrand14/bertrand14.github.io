@@ -1,4 +1,4 @@
-let works = [
+const works = [
  {
   society: "Hatanpään koulu",
   city:"Tampere",
@@ -220,13 +220,7 @@ let works = [
   },
 ]
 
-let schools = [
-  {
-    schoolname: "",
-    city:"",
-    date:"",
-    description:"",
-   },
+const schools = [
    {
     schoolname: "TREDU – Tampereen Seudun Ammattiopisto",
     city:"Tampere",
@@ -294,3 +288,6 @@ let schools = [
     description:"Ylioppilastutkinto: suuntautumislinjana kirjanpito ja taloushallinto",
    },
 ]
+
+
+export {works,schools}

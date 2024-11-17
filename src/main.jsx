@@ -1,11 +1,10 @@
-console.log("Bienvenue sur mon portfolio !");
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-document.addEventListener("DOMContentLoaded", function() {
-    const projectsSection = document.querySelector("#projects");
-    projectsSection.addEventListener("mouseover", () => {
-        projectsSection.style.backgroundColor = "#e0f7fa";
-    });
-    projectsSection.addEventListener("mouseleave", () => {
-        projectsSection.style.backgroundColor = "white";
-    });
-});
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)

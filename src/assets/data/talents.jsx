@@ -7,3 +7,4 @@ let computer= [
 
 let lang = ["ranska", "suomi", "englanti"]
 
+export {computer, lang}
