@@ -4,8 +4,8 @@ const works = [
   city:"Tampere",
   startdate:"07.08.2023",
   enddate:"",
-  worktitle:"Koulunkäynninohjaaja",
-  workdescription:[
+  title:"Koulunkäynninohjaaja",
+  description:[
    "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
   ],
  },
@@ -14,8 +14,8 @@ const works = [
   city:"Tampere",
   startdate:"08.08.2022",
   enddate:"02.06.2023",
-  worktitle:"Koulunkäynninohjaaja",
-  workdescription:[
+  title:"Koulunkäynninohjaaja",
+  description:[
    "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
   ],
  },
@@ -24,8 +24,8 @@ const works = [
   city:"Tampere",
   startdate:"07.03.2022",
   enddate:"03.06.2022",
-  worktitle:"Koulunkäynninohjaaja",
-  workdescription:[
+  title:"Koulunkäynninohjaaja",
+  description:[
    "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
   ],
  },
@@ -34,8 +34,8 @@ const works = [
   city:"Nokia",
   startdate:"31.08.2020",
   enddate:"05.06.2021",
-  worktitle:"Koulunkäynninohjaaja",
-  workdescription:[
+  title:"Koulunkäynninohjaaja",
+  description:[
    "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
   ],
   },
@@ -44,8 +44,8 @@ const works = [
    city:"Nokia",
    startdate:"09.09.2018",
    enddate:"30.08.2020",
-   worktitle:"Avustava-ohjaaja",
-   workdescription:[
+   title:"Avustava-ohjaaja",
+   description:[
     "Kehitysvammaisten ja erityistä tukea tarvitsevien henkilöiden tuettu ja tehostettu palveluasuminen ",
    ],
   },
@@ -54,8 +54,8 @@ const works = [
    city:"Pirkkala",
    startdate:"10.08.2015",
    enddate:"30.08.01.06.2018",
-   worktitle:"Koulunkäynninohjaaja",
-   workdescription:[
+   title:"Koulunkäynninohjaaja",
+   description:[
     "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
     "Erityisiltapäiväkerho ja aamutoiminnan sijaisuuksia"
    ],
@@ -65,40 +65,40 @@ const works = [
    city:"Pirkkala",
    startdate:"10.03.2015",
    enddate:"10.08.2015",
-   worktitle:"Varhaiskasvatustyöntekijä ja Koulunkäynninohjaaja",
-   workdescription:["Monia sijaisuuksia päiväkodeissa ja kouluissa"],
+   title:"Varhaiskasvatustyöntekijä ja Koulunkäynninohjaaja",
+   description:["Monia sijaisuuksia päiväkodeissa ja kouluissa"],
   },
   {
    society: "Pirkkalan kunta",
    city:"Pirkkala",
    startdate:"13.01.2015",
    enddate:"13.03.2015",
-   worktitle:"Koulunkäynninohjaaja",
-   workdescription:["Monia sijaisuuksia kouluissa"],
+   title:"Koulunkäynninohjaaja",
+   description:["Monia sijaisuuksia kouluissa"],
   },
   {
    society: "Tampereen Ranskalais-suomalainen päiväkoti ry",
    city:"Tampere",
    startdate:"13.08.2012",
    enddate:"12.12.2014",
-   worktitle:"Lastenhoitaja",
-   workdescription:["Lasten iltapäiväkerhon toimintaan liittyvät työtehtävät"],
+   title:"Lastenhoitaja",
+   description:["Lasten iltapäiväkerhon toimintaan liittyvät työtehtävät"],
   },
   {
    society: "Extremely Nice Job Oy",
    city:"Tampere",
    startdate:"23.03.2011",
    enddate:"21.08.2011",
-   worktitle:"Vuokratyöntekijä",
-   workdescription:["Kokki - Hook"],
+   title:"Vuokratyöntekijä",
+   description:["Kokki - Hook"],
   },
   {
    society: "A-Service Oy",
    city:"Tampere",
    startdate:"17.11.2010",
    enddate:"05.02.2011",
-   worktitle:"Vuokratyöntekijä",
-   workdescription:[ 
+   title:"Vuokratyöntekijä",
+   description:[ 
     "Tilaustarjoilija - Bravo Plaza",
     "Tiskari ja Kokki - Musiikki Teatteri Palatsi",
    ],
@@ -108,8 +108,8 @@ const works = [
    city:"Tampere",
    startdate:"17.01.2010",
    enddate:"14.10.2010",
-   worktitle:"Vuokratyöntekijä",
-   workdescription:[
+   title:"Vuokratyöntekijä",
+   description:[
     "Suurtalouskokki - Tampereen Ammattikorkeakoulun Opiskelijatuki Oy (TAMKO)",
     "Aamiaiskokki – Sokotel Oy",
     "Tiskari, Keittiöapulainen, Kokki - Amica",
@@ -122,16 +122,16 @@ const works = [
    city:"Tampere",
    startdate:"19.06.2009",
    enddate:"24.07.2009",
-   worktitle:"Tarjoilija",
-   workdescription:["Työharjoittelu (Onnenkieli Oy:n kautta)"],
+   title:"Tarjoilija",
+   description:["Työharjoittelu (Onnenkieli Oy:n kautta)"],
   },
   {
    society: "Eurodisney Associés SCA",
    city:"Chessy",
    startdate:"05.03.2005",
    enddate:"26.01.2008",
-   worktitle:"Huvipuistolaitteiden koneenkäyttäjä ja huvimestari",
-   workdescription:[
+   title:"Huvipuistolaitteiden koneenkäyttäjä ja huvimestari",
+   description:[
     "Accueillir et informer les visiteurs : Assurer un accueil chaleureux et professionnel à tous les visiteurs, fournir des informations sur l’attraction, les consignes de sécurité, et les recommandations spécifiques pour chaque type de public, gérer les files d’attente, en veillant au confort des visiteurs et en offrant une expérience agréable dès l’attente",
     "Assurer le bon fonctionnement des attractions: Opérer les attractions de manière sûre et efficace en suivant les procédures de sécurité établies par Disneyland Paris, surveiller les visiteurs pendant l’embarquement, l’expérience de l’attraction et le débarquement, effectuer des vérifications régulières de l’équipement et signaler immédiatement tout problème technique ou opérationnel.",
     "Veiller à la sécurité des visiteurs: Appliquer et faire respecter les consignes de sécurité pour garantir la protection de tous les visiteurs, être capable de réagir rapidement en cas d’urgence et de suivre les procédures d’évacuation et d’assistance.",
@@ -143,8 +143,8 @@ const works = [
    city:"Chessy",
    startdate:"03.04.2004",
    enddate:"03.03.2005",
-   worktitle:"Tarjoilija ja baarimies",
-   workdescription:[
+   title:"Tarjoilija ja baarimies",
+   description:[
     "Tarjoilija Golf Disneyland Resort Paris’n ravintolassa",
     "Aamupalatarjoilija, Baarimies Beaver Creek -ravintolassa Hotelli Sequoia Lodgessa",
    ],
@@ -154,8 +154,8 @@ const works = [
    city:"Hérouville-Saint-Clair",
    startdate:"26.02.2004",
    enddate:"01.04.2004",
-   worktitle:"Valvoja ja kouluavustaja",
-   workdescription:[
+   title:"Valvoja ja kouluavustaja",
+   description:[
     "Aamupäivällä välituntivalvojana",
     "Iltapäivällä apuna kotitehtävien teossa",
    ],
@@ -165,8 +165,8 @@ const works = [
    city:"Mondeville",
    startdate:"30.08.2003",
    enddate:"02.02.2004",
-   worktitle:"Vuokratyöntekijä",
-   workdescription:[
+   title:"Vuokratyöntekijä",
+   description:[
     "Tarjoilija",
     "Tiskaaja",
    ],
@@ -176,8 +176,8 @@ const works = [
    city:"Caen",
    startdate:"17.01.2003",
    enddate:"29.09.2003",
-   worktitle:"Vuokratyöntekijä",
-   workdescription:[
+   title:"Vuokratyöntekijä",
+   description:[
     "Tehdassiivooja",
     "Koneenhoitaja/pakkaaja",
     "Vihannesten lajittelija",
@@ -190,8 +190,8 @@ const works = [
    city:"Saint-Paul les Romans",
    startdate:"03.06.2002",
    enddate:"04.08.2002",
-   worktitle:"Työharjoittelu",
-   workdescription:[
+   title:"Työharjoittelu",
+   description:[
     "20 henkisen henkilökunnan esihenkilö",
    ],
   },
@@ -200,8 +200,8 @@ const works = [
    city:"Chessy",
    startdate:"07.05.2001",
    enddate:"29.07.2001",
-   worktitle:"Työharjoittelu",
-   workdescription:[
+   title:"Työharjoittelu",
+   description:[
     "Tarjoilija",
     "Ravintolasalin esimies",
     "Keittiöapulainen",
@@ -213,8 +213,8 @@ const works = [
    city:"Chessy",
    startdate:"25.09.2000",
    enddate:"22.10.2000",
-   worktitle:"Työharjoittelu",
-   workdescription:[
+   title:"Työharjoittelu",
+   description:[
     "Tarjoilija",
    ],
   },

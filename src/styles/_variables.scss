@@ -7,7 +7,7 @@ $secondaryMint2:  #80d7b1;
 $secondaryOrange1: #ff7f50;
 $secondaryOrange2: #ffb085;
 $secondaryAnthracite1:#333333; // font/nav
-$secondaryAnthracite2:#333333; // font/nav
+$secondaryAnthracite2:#444444; // font/nav
 $thirdYellow1:#ffed66; //button
 $thirdYellow2:#f7f5a1; //button
 
@@ -16,5 +16,14 @@ $thirdYellow2:#f7f5a1; //button
 }
 
 body{
- background-color:$secondaryAnthracite2;
+ background-color: $principalBlue1;
+}
+
+#root{
+ display:block;
+ margin:5vh auto;
+ width:70vw;
+ background-color:$secondaryAnthracite1;
+ border-radius: 20px;
+ box-shadow: 0 0 20px black;
 }

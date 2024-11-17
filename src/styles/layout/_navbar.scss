@@ -1,7 +1,7 @@
 @import '../variables';
 
 nav{
- display:sticky;
+ position:sticky;
  top:0;
  width:100%;
 
@@ -9,7 +9,7 @@ nav{
   display:grid;
   grid-template-columns: repeat(5,1fr);
   gap: 5vw;
-  width:80vw;
+  width:80%;
   margin:auto;
   li{
    background-color: $thirdYellow2;

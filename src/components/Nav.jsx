@@ -5,7 +5,7 @@ function Nav(){
   <nav>
   <ul>
     <li><a href="/about">Tarinani</a></li>
-    <li><a Href="/experiences">Kokemukset</a></li>
+    <li><a href="/experiences">Kokemukset</a></li>
     <li><a href="/talents">Taidot</a></li>
     <li><a href="/projects">Projektini</a></li>
     <li><a href="/contact">Contact</a></li>
