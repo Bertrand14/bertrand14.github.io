@@ -30,31 +30,31 @@
     height:1px;
     position:relative;
     width:100%;
-    margin: 1rem 0 2rem 0;
+    margin-top: 1rem;
     &::before{
      content: '';
      position: absolute;
-     top: -10px; /* Pour placer le cercle au-dessus de la bordure */
+     top: -10px; 
      left: 50%;
-     transform: translateX(-50%); /* Centre le cercle horizontalement */
-     width: 20px; /* Largeur du cercle */
-     height: 20px; /* Hauteur du cercle */
-     background-color: black; /* Couleur du cercle */
-     border-radius: 50%; /* Rend le cercle arrondi */
+     transform: translateX(-50%);
+     width: 20px; 
+     height: 20px; 
+     background-color: black;
+     border-radius: 50%;
     }
    }
    .image{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:10vw;
     height:10vw;
     img{
      display:block;
-     width:80%;
+     max-width:80%;
+     max-height:100%;
      margin:auto auto;
     }
-   }
-   .infos{
-
    }
   }
  }

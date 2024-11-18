@@ -95,7 +95,7 @@ const works = [
   {
    place: "Tampereen Ranskalais-suomalainen päiväkoti ry",
    link:"https://tampereen-ranskalais-suomalainen-paivakotiyhdistys-ry.onverkossa.fi/",
-   img:"",
+   img:"https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-learning-logo-template-art-arts-png-image_5584083.png",
 	city:"Tampere",
    startdate:"08.2012",
    enddate:"12.2014",
@@ -104,7 +104,8 @@ const works = [
   },
   {
    place: "Extremely Nice Job Oy",
-   link:"",
+   link:"https://eezy.fi/",
+   img:"https://mediapankki.eezy.fi/images/logo/logo.png",
 	city:"Tampere",
    startdate:"03.2011",
    enddate:"08.2011",
@@ -114,6 +115,7 @@ const works = [
   {
    place: "A-Service Oy",
    link:"",
+   img:"https://images.squarespace-cdn.com/content/v1/55a4267ee4b0fe63372a63f8/1528774741135-UM0VXVE4HXNBCTM7W56O/Interim+Leadership.LogoMakr-4Ih6Dl-300dpi.png",
 	city:"Tampere",
    startdate:"11.2010",
    enddate:"02.2011",
@@ -142,6 +144,7 @@ const works = [
   {
    place: "Alsaco Oy",
    link:"https://media.licdn.com/dms/image/v2/C560BAQFbPbCTqQPfqw/company-logo_200_200/company-logo_200_200/0/1631424385579/extremely_nice_job_oy__enjoy__logo?e=1740009600&v=beta&t=SfShkxykFs8gzzsEfP4DLJ-N8Adl-myGXP0hJEx7tXs",
+   img:"https://www.logodesign.net/images/tutorials/restaurent-logos/restaurant-logo-designer-needs.png",
 	city:"Tampere",
    startdate:"06.2009",
    enddate:"07.2009",
@@ -179,7 +182,7 @@ const works = [
   {
    place: "Mairie d'Hérouville-Saint-Clair",
    link:"https://www.herouville.net/services/petite-enfance-education-jeunesse/vie-scolaire/les-etablissements-scolaires",
-   img:"https://www.aventech.fr/images/logo-herouville-saint-clair.png?1558357290685",
+   img:"https://www.herouville.net/themes/herouville/assets/images/logo-ville-herouville.png",
 	city:"Hérouville-Saint-Clair",
    startdate:"02.2004",
    enddate:"04.2004",
@@ -313,7 +316,7 @@ const schools = [
    {
     place: "TREDU – Tampereen Seudun Ammattiopisto",
     link:"https://www.tredu.fi/koulutus/koulunkaynnin-ja-aamu-ja-iltapaivatoiminnan-ohjaaja/",
-    ing:"https://osaava.tredu.fi/wp-content/uploads/2018/05/Tredu_logo.png",
+    img:"https://osaava.tredu.fi/wp-content/uploads/2018/05/Tredu_logo.png",
     city:"Tampere",
     startdate:"07.2013",
     enddate:"02.2015",
@@ -332,7 +335,8 @@ const schools = [
    },
    {
     place: "Heikki Pirinen Osaamistestaaja A0047",
-    link:"",
+    link:"#",
+    img:"https://hygieniapassi.ruokavirasto.fi/_next/static/media/Ruokavirasto_horizontal_blue.c5cd0cd0.svg",
     city:"Tampere",
     startdate:"12.2009",
     enddate:"12.2009",
@@ -352,10 +356,9 @@ const schools = [
    {
     place: "Ammattikorkeakoulu François RABELAIS",
     link:"https://rabelais.lycee.ac-normandie.fr/spip.php?article453",
-
+    img:"https://image-parcours.copainsdavant.com/image/750/1132378511/4087728.jpg",
     city:"Hérouville-Saint-Clair",
     startdate:"09.2000",
-    img:"https://image-parcours.copainsdavant.com/image/750/1132378511/4087728.jpg",
     enddate:"08.2002",
     title:"Hotelli- ja ravintola-alan ammattikorkeakoulututkinto",
     description:"",
