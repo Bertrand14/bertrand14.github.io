@@ -1,0 +1,16 @@
+@import '../variables';
+
+a{
+ color:$secondaryAnthracite1;
+}
+
+a:link{
+ color:$secondaryAnthracite1;
+}
+
+a:visited{
+ color:$secondaryAnthracite1; 
+}
+a:hover{
+ text-decoration: none;
+}

@@ -1,8 +1,57 @@
 @import '../variables';
+@import '../keyframe';
 
 header{
+ display:grid;
+ grid-template-columns: 20vh auto;
+ grid-template-rows: min-content;
+ grid-template-areas: "picture title";
  background-color: $secondaryAnthracite2;
- border-top-left-radius:  20px;
- border-top-right-radius:  20px;
+ border-top-left-radius: 2vw;
+ border-top-right-radius: 2vw;
  margin-bottom: 2vh;
+ text-align: center;
+ a{
+  grid-area: picture;
+  width:20vh;
+  height:20vh;
+  .bubbleEffect {
+   position: relative;    
+   display: inline-block;
+   width:90%;
+   height:90%;
+   border-radius: 50%;
+   overflow: hidden;
+   box-shadow: 0 2vh 1vh -1vh black ;
+   &:after {
+    content: '';
+    position: absolute;
+    box-shadow: inset 0.8vw 0.8vw 0.8vw rgba(0,0,0,0.05),
+    1vw 1.4vw 0.8vw rgba(0,0,0,0.05),
+    1vw 0.8vw 0.8vw rgba(0,0,0,0.05),
+    inset 1vw 1vw 1vw rgba(255,255,255,0.9);
+    border-radius: 50%;
+    overflow: hidden;
+   }
+   &:after {
+    width:100%;
+    height:100%;  
+    top: 0vh;
+    left: 0vh;
+    overflow: hidden;
+   }
+   &:hover{
+    animation: float 2s ease-in-out 0.2s infinite;
+   }
+   img{
+    width:100%;
+    height:100%;
+   }
+  }
+ }
+ h1{
+  grid-area: title;
+  text-shadow: 1px 1px 0 white;
+  margin:auto;
+ }
 }

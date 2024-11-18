@@ -3,14 +3,47 @@
 
 
 .experiences{
-
- width:50%;
- > div{
-  background-color: $secondaryMint1;
-  border-bottom:1px solid grey;
+ width:100%;
+ background-color:hsla(0, 100%, 100%, 0.8);
+ 
+ h2{
+  display: block;
+  width:100%;
+  text-align: center;
  }
- &.works{
-  border-right:1px solid grey;
-  padding-left:5vh;
+ .ListOfAllExperiences{
+  display:flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  overflow: scroll;  
+  > div{
+   min-width:20%;
+   max-width:20%;
+   position: relative;
+   *{
+    width:100%;
+    text-align: center;
+   }
+   .timeline{
+    border-top:1px solid black;
+    height:1px;
+   }
+   img{
+    display: block;
+    width:80%;
+    height:auto;
+    margin:1rem auto;
+   }
+   .infos{
+    position:absolute;
+    bottom:0;
+   }
+  }
+  :first-child{
+   .timeline{width:50%;margin-right:50%;}
+  }
+  :last-child{
+   .timeline{width:50%;margin-left:50%;}
+  }
  }
 }
