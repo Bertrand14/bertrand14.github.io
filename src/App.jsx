@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Nav />
-      <WorkExperiences />
+      <AllExperiences />
       <Footer />
     </>
   );

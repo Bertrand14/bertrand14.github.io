@@ -1,17 +1,17 @@
 import React from 'react';
 import {works,schools} from './../assets/data/experiences'
 
-function WorkInfos({infos}){
+function GetInfos({infos}){
  const date = (infos.enddate) ? new Date(`01.${infos.enddate}`) : new Date()
  console.log(date)
  return(
   <>
-   <h2 className='date'>{date.getFullYear()}</h2>
+   <h3 className='date'>{date.getFullYear()}</h3>
    <div className='timeline'></div>
-   <img src={infos.img} alt={infos.society} />
+   <div className='image'><img src={infos.img} alt={infos.place} /></div>
    <div className='infos'>
-    <h3 className='society'><a href={infos.link} target="_blank" >{infos.society}</a></h3>
-    <h4 className='title'>{infos.title}</h4>
+    <h4 className='place'><a href={infos.link} target="_blank" >{infos.place}</a></h4>
+    <h5 className='title'>{infos.title}</h5>
    </div>
   </>
  )
@@ -19,44 +19,33 @@ function WorkInfos({infos}){
 
 function WorkExperiences(){
  let allWorks = works.map((work, index) => 
-  <div key={index}><WorkInfos infos={work}/></div>
+  <div className='resumeExperience' key={index}><GetInfos infos={work}/></div>
  );
 
  return (
-  <div className="experiences works">
+  <div className="AllExperiences works">
    <h2>Työkokemukset</h2>
-   <div className='ListOfAllExperiences'>{allWorks}</div>
+   <div className='experiences'>{allWorks}</div>
   </div>
- )
-}
-
-function SchoolInfos({infos}){
- const date = (infos.enddate) ? `${infos.startdate} - ${infos.enddate}` : `${infos.startdate} - Jatkuu`
- return(
-  <>
-   <span className='date'>{date}</span>
-   <div className=''><a href={infos.link} target="_blank" >{infos.schoolname}</a></div>
-   <h4 className=''>{infos.title}</h4>
-   <div className=''>{infos.description}</div>
-  </>
  )
 }
 
 function SchoolExperiences(){
  let allSchools = schools.map((school, index) => 
-  <div key={index}><SchoolInfos infos={school}/></div>
+  <div className='resumeExperience' key={index}><GetInfos infos={school}/></div>
  );
 
  return (
-  <div className="experiences studies">
-   {allSchools}
-  </div>
+  <div className="AllExperiences studies">
+  <h2>Koulutukset</h2>
+  <div className='experiences'>{allSchools}</div>
+ </div>
  )
 }
 
 function AllExperiences(){
  return (
-  <div className='AllExperiences'>
+  <div className='ListOfAllExperiences'>
    <WorkExperiences />
    <SchoolExperiences />
   </div>

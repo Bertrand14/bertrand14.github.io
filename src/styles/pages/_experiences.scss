@@ -2,48 +2,60 @@
 
 
 
-.experiences{
- width:100%;
+.AllExperiences{
+ width:90%;
  background-color:hsla(0, 100%, 100%, 0.8);
+ margin:auto;
+ margin-bottom:5%;
  
  h2{
   display: block;
   width:100%;
   text-align: center;
  }
- .ListOfAllExperiences{
+ .experiences{
   display:flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   overflow: scroll;  
-  > div{
-   min-width:20%;
-   max-width:20%;
+  .resumeExperience{
+   display:flex;
+   flex-direction: column;
+   flex-wrap:wrap;
+   width:50vw;
    position: relative;
-   *{
-    width:100%;
-    text-align: center;
-   }
+   text-align: center;
    .timeline{
     border-top:1px solid black;
     height:1px;
+    position:relative;
+    width:100%;
+    margin: 1rem 0 2rem 0;
+    &::before{
+     content: '';
+     position: absolute;
+     top: -10px; /* Pour placer le cercle au-dessus de la bordure */
+     left: 50%;
+     transform: translateX(-50%); /* Centre le cercle horizontalement */
+     width: 20px; /* Largeur du cercle */
+     height: 20px; /* Hauteur du cercle */
+     background-color: black; /* Couleur du cercle */
+     border-radius: 50%; /* Rend le cercle arrondi */
+    }
    }
-   img{
+   .image{
     display: block;
-    width:80%;
-    height:auto;
-    margin:1rem auto;
+    width:10vw;
+    height:10vw;
+    img{
+     display:block;
+     width:80%;
+     margin:auto auto;
+    }
    }
    .infos{
-    position:absolute;
-    bottom:0;
+
    }
-  }
-  :first-child{
-   .timeline{width:50%;margin-right:50%;}
-  }
-  :last-child{
-   .timeline{width:50%;margin-left:50%;}
   }
  }
 }

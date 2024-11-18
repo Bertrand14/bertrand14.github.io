@@ -4,6 +4,7 @@ nav{
  position:sticky;
  top:0;
  width:100%;
+ z-index:100;
  ul{
   display:grid;
   grid-template-columns: repeat(5,1fr);
