@@ -10,26 +10,3 @@ $secondaryAnthracite1:#333333; // font/nav
 $secondaryAnthracite2:#444444; // font/nav
 $thirdYellow1:#ffed66; //button
 $thirdYellow2:#f7f5a1; //button
-
-*,a{
- color:$secondaryAnthracite1;
-}
-
-body{
- background-color: $principalBlue1;
-}
-
-#root{
- display:block;
- margin:5vh auto;
- width:70vw;
- background-color:$secondaryAnthracite1;
- border-radius: 2vw;
- box-shadow: 0 0 20px black;
-}
-
-@media screen and (max-width: 600px) {
- #root{
-  width:95vw;
- }
-}

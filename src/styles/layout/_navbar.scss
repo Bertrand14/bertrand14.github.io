@@ -36,9 +36,10 @@ nav{
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
  nav{
   position:fixed;
+  top:100vh;
   bottom:0;
   width:100vw;
   ul.largeScreen{display:none};

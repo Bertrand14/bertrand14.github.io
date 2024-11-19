@@ -21,18 +21,18 @@
    display:flex;
    flex-direction: column;
    flex-wrap:wrap;
-   width:50vw;
    position: relative;
    text-align: center;
    .date{
     padding-bottom: 1vh;
     border-bottom:1px solid black;
+    position:relative;
     &::after{
      content: '';
      position: absolute;
-     top:-1vw; 
-     left: 50%;
-     transform: translateX(-50%);
+     left:50%;
+     bottom: 0;
+     transform: translate(-50%,50%);
      width: 1vw; 
      height: 1vw; 
      background-color: black;
@@ -40,17 +40,20 @@
     }
    }
    .thumbnail{
+    display:grid;
+    grid-template-columns: 1fr;
     .image{
      display: flex;
      justify-content: center;
      align-items: center;
      width:10vw;
      height:10vw;
+     margin:auto;
      img{
       display:block;
       max-width:80%;
       max-height:100%;
-      margin:auto auto;
+      margin:auto;
      }
     }
    }
@@ -58,21 +61,49 @@
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 .AllExperiences{
  height:50vh;
  overflow-y: scroll;
  .experiences{
   width:100%;
-  flex-direction: column-reverse !important;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   .resumeExperience{
-   flex-direction: row !important;
-   flex-wrap:nowrap !important;
-   width:100vw;
-   
-   .timeline{
-    transform: rotate(90deg);
+   display:grid;
+   grid-template-columns: 1fr 4fr;
+   grid-template-areas: "image infos";
+   height:12vh;
+   .date{
+    padding:0;
+    border:none;
+    margin: auto 0;
+    position: relative;
+    &::after {
+     content: '';
+     position: absolute;
+     top:50%;
+     left:calc(100% - 1.5vw);
+     transform: translateY(-50%);
+     width: 3vw; 
+     height: 3vw; 
+     background-color: black;
+     border-radius: 50%;
+    }
+   }
+   .thumbnail{
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "image infos";
+    align-items: center;
+    border-left: 1px solid black;
+    position: relative;
+    max-height:100%;
+    .image{
+     grid-area: image;
+    }
+    .infos{
+     text-align: left;
+    }
    }
   }
  }

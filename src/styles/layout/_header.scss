@@ -56,10 +56,10 @@ header{
  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
  header{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   a{
    margin:auto;

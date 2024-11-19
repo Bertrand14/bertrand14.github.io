@@ -28,18 +28,22 @@
    text-align: left;
    table-layout: auto;
    border-collapse: collapse;
-   th,
-   td {
+   th{
     padding: 1%;
+    min-width:calc(100% / 3);
+   }
+   td {
+    width:calc(100% / 3 * 2);
    }
    .knowledgeStars{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width:10vw;
+    margin:auto 0;
     div{
-     width:15%;
-     height:50%;
+     width:1.5vw;
+     height:1.5vw;
      border-radius: 50%;
      margin:0 2%;
      &.starFull{background-color: gold;}
@@ -58,4 +62,15 @@
  padding:1%;
  border-radius: 1vw;
  overflow: hidden;
+ line-height: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+ .allSkills{
+  > div{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:1vw;
+  }
+ }
 }
