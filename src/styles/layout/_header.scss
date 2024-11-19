@@ -55,3 +55,14 @@ header{
   margin:auto;
  }
 }
+
+@media screen and (max-width: 600px) {
+ header{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  a{
+   margin:auto;
+  }
+ }
+}

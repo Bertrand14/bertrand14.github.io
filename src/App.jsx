@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
 import {WorkExperiences, SchoolExperiences, AllExperiences} from './components/Experiences';
-import Talents from './components/Talents';
+import AllSkills from './components/Skills';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import './styles/main.scss';
@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Nav />
       <AllExperiences />
+      <AllSkills />
       <Footer />
     </>
   );

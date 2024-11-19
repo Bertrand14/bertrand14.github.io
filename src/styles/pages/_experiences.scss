@@ -3,11 +3,10 @@
 
 
 .AllExperiences{
- width:90%;
  background-color:hsla(0, 100%, 100%, 0.8);
- margin:auto;
- margin-bottom:5%;
- 
+ margin:5%;
+ border-radius: 1vw;
+ overflow: hidden;
  h2{
   display: block;
   width:100%;
@@ -25,37 +24,57 @@
    width:50vw;
    position: relative;
    text-align: center;
-   .timeline{
-    border-top:1px solid black;
-    height:1px;
-    position:relative;
-    width:100%;
-    margin-top: 1rem;
-    &::before{
+   .date{
+    padding-bottom: 1vh;
+    border-bottom:1px solid black;
+    &::after{
      content: '';
      position: absolute;
-     top: -10px; 
+     top:-1vw; 
      left: 50%;
      transform: translateX(-50%);
-     width: 20px; 
-     height: 20px; 
+     width: 1vw; 
+     height: 1vw; 
      background-color: black;
      border-radius: 50%;
     }
    }
-   .image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:10vw;
-    height:10vw;
-    img{
-     display:block;
-     max-width:80%;
-     max-height:100%;
-     margin:auto auto;
+   .thumbnail{
+    .image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width:10vw;
+     height:10vw;
+     img{
+      display:block;
+      max-width:80%;
+      max-height:100%;
+      margin:auto auto;
+     }
     }
    }
   }
  }
+}
+
+@media screen and (max-width: 600px) {
+.AllExperiences{
+ height:50vh;
+ overflow-y: scroll;
+ .experiences{
+  width:100%;
+  flex-direction: column-reverse !important;
+  flex-wrap: wrap;
+  .resumeExperience{
+   flex-direction: row !important;
+   flex-wrap:nowrap !important;
+   width:100vw;
+   
+   .timeline{
+    transform: rotate(90deg);
+   }
+  }
+ }
+}
 }

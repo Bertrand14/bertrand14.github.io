@@ -1,0 +1,61 @@
+@import '../variables';
+
+
+
+.allSkills{
+ width:90%;
+ background-color:hsla(0, 100%, 100%, 0.8);
+ margin:auto;
+ margin-bottom:5%;
+ padding:1%;
+ border-radius: 1vw;
+ overflow: hidden;
+ h2{
+  display: block;
+  width:100%;
+  text-align: center;
+ }
+ > div{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:1vw;
+ }
+ .skillCategory{
+  background-color:hsla(0, 100%, 100%, 0.8);  
+  padding:1%;
+  .knowledgeInfos{
+   width:100%;
+   text-align: left;
+   table-layout: auto;
+   border-collapse: collapse;
+   th,
+   td {
+    padding: 1%;
+   }
+   .knowledgeStars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:10vw;
+    div{
+     width:15%;
+     height:50%;
+     border-radius: 50%;
+     margin:0 2%;
+     &.starFull{background-color: gold;}
+     &.starEmpty{background-color: silver;}
+    }
+   }
+  }
+ }
+}
+
+.explanations{
+ width:90%;
+ background-color:hsla(0, 100%, 100%, 0.8);
+ margin:auto;
+ margin-bottom:5%;
+ padding:1%;
+ border-radius: 1vw;
+ overflow: hidden;
+}

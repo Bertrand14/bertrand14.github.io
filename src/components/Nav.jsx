@@ -1,17 +1,41 @@
 import React from 'react';
+import navParts from './../assets/data/navparts';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faBriefcase, faThumbsUp, faProjectDiagram, faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons"; 
+
+// Dictionnaire pour mapper les catégories aux icônes appropriées
+const iconMapping = {
+  "aboutme": faUser,
+  "myexperiences": faBriefcase,
+  "myskills": faThumbsUp,
+  "myprojects": faProjectDiagram,
+  "contactme": faEnvelope,
+  "smallMenu":faBars,
+};
+
+
 
 function Nav(){
- return (
-  <nav>
-  <ul>
-    <li><a href="/about">Tarinani</a></li>
-    <li><a href="/experiences">Kokemukset</a></li>
-    <li><a href="/talents">Taidot</a></li>
-    <li><a href="/projects">Projektini</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
- )
-}
+  let allNavParts = Object.entries(navParts).map(([part, data], index) => {
+  const logo = iconMapping[part];
 
-export default Nav
+  return (
+    <a href={part}><li>
+     <i>{logo && <FontAwesomeIcon icon={logo} />}</i><div>{data.title}</div>
+    </li></a>
+  )
+  })
+
+  return(
+    <nav>
+      <ul className='smallScreen'>
+        {allNavParts}
+      </ul>
+      <ul className='largeScreen'>
+        {allNavParts}
+      </ul>
+    </nav>
+
+  )
+}
+export default Nav  

@@ -65,7 +65,7 @@ const works = [
    img:"https://www.pirkkala.fi/wp-content/uploads/files/5edde472475a6c4269c86966/OP4_8602-scaled.jpg",
 	city:"Pirkkala",
    startdate:"08.2015",
-   enddate:"08.01.06.2018",
+   enddate:"06.2018",
    title:"Koulunkäynninohjaaja",
    description:[
     "Luokassa erityistä tukea tarvitsevien oppilaiden ohjaaja",
@@ -356,7 +356,7 @@ const schools = [
    {
     place: "Ammattikorkeakoulu François RABELAIS",
     link:"https://rabelais.lycee.ac-normandie.fr/spip.php?article453",
-    img:"https://image-parcours.copainsdavant.com/image/750/1132378511/4087728.jpg",
+    img:"https://media.licdn.com/dms/image/C4E0BAQGzQCJR9zFuHQ/company-logo_200_200/0/1601220862560?e=2147483647&v=beta&t=ZTay2Xusmahsm1SPpaqB3ztyy5f0ZHXAgRlxAMr6VF0",
     city:"Hérouville-Saint-Clair",
     startdate:"09.2000",
     enddate:"08.2002",
