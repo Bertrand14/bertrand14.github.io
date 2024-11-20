@@ -1,51 +1,83 @@
+import {
+ faLaptopCode,
+ faServer,
+ faImage,
+ faLanguage,
+ faFileWord,
+ faFileExcel,
+ faDatabase,
+ faFilePowerpoint,
+ faCode,
+ faFileAlt,
+ faBrush,
+ faPalette,
+ faVideo,
+ faCube,
+ faBreadSlice,
+ faSnowflake,
+ faCoffee,
+} from "@fortawesome/free-solid-svg-icons"; 
+
+import {
+  faMicrosoft,
+  faWindows,
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faReact,
+  faPhp,
+  faNodeJs,
+  faGitAlt,
+} from "@fortawesome/free-brands-svg-icons";
+
 const skills = {
- "Microsoft Software":  {
-  logo: "faMicrosoft",
-  items: [
-    { name: "Windows", note: 4 },
-   { name: "Word", note: 4 },
-   { name: "Excel", note: 4 },
-   { name: "Access", note: 4 },
-   { name: "Powerpoint", note: 3 },
-  ],
- },
- "Front-End": {
-  logo: "faLaptopCode",
-  items: [
-   { name: "HTML", note: 4 },
-   { name: "CSS/SASS", note: 4 },
-   { name: "JavaScript", note: 3 },
-   { name: "Git", note: 2 },
-   { name: "JSON", note: 3 },
-   { name: "jQuery", note: 3 },
-   { name: "React", note: 2 },
-  ],
- },
- "Back-End": {
-  logo: "faServer",
-  items: [
-   { name: "PHP", note: 4 },
-   { name: "node.js", note: 2 },
-   { name: "SQL", note: 4 },
-  ],
- },
- "Media": {
-  logo: "faPhotoVideo",
-  items: [
-   { name: "Photoshop", note: 3 },
-   { name: "GIMP", note: 1 },
-   { name: "Vegas Video", note: 4 },
-   { name: "Blender", note: 1 },
-  ],
- },
- "Kielet": {
-  logo: "faLanguage",
-  items: [
-   { name: "Ranska", note: 5 },
-   { name: "Suomi", note: 3 },
-   { name: "Englanti", note: 2 },
-  ],
- },
+  "Microsoft Software": {
+    logo: faMicrosoft,
+    items: [
+      { name: "Windows", note: 4, icon: faWindows },
+      { name: "Word", note: 4, icon: faFileWord },
+      { name: "Excel", note: 4, icon: faFileExcel },
+      { name: "Access", note: 4, icon: faDatabase },
+      { name: "Powerpoint", note: 3, icon: faFilePowerpoint },
+    ],
+  },
+  "Front-End": {
+    logo: faLaptopCode,
+    items: [
+      { name: "HTML", note: 4, icon: faHtml5 },
+      { name: "CSS/SASS", note: 4, icon: faCss3Alt },
+      { name: "JavaScript", note: 3, icon: faJsSquare },
+      { name: "Git", note: 2, icon: faGitAlt },
+      { name: "JSON", note: 3, icon: faFileAlt },
+      { name: "jQuery", note: 3, icon: faCode },
+      { name: "React", note: 2, icon: faReact },
+    ],
+  },
+  "Back-End": {
+    logo: faServer,
+    items: [
+      { name: "PHP", note: 4, icon: faPhp },
+      { name: "node.js", note: 2, icon: faNodeJs },
+      { name: "SQL", note: 4, icon: faDatabase },
+    ],
+  },
+  "Media": {
+    logo: faImage,
+    items: [
+      { name: "Photoshop", note: 3, icon: faBrush },
+      { name: "GIMP", note: 1, icon: faPalette },
+      { name: "Vegas Video", note: 4, icon: faVideo },
+      { name: "Blender", note: 1, icon: faCube },
+    ],
+  },
+  "Kielet": {
+    logo: faLanguage,
+    items: [
+      { name: "Ranska", note: 5, icon: faBreadSlice },
+      { name: "Suomi", note: 3, icon: faSnowflake },
+      { name: "Englanti", note: 2, icon: faCoffee },
+    ],
+  },
 };
 
 let explanations = {
