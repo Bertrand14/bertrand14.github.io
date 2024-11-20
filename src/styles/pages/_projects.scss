@@ -35,10 +35,7 @@
      color: #333;
    }
    .keypoints{
-    li{
-      list-style-image: url('https://giphy.com/embed/93lywvXdUlArzhrASa');
-      // <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/93lywvXdUlArzhrASa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/stickers/iamsuperbianca-how-paano-paanobato-93lywvXdUlArzhrASa">via GIPHY</a></p>
-    }
+    list-style-image: url(./../../assets/images/bulb.png);
    }
    .links a {
      display: inline-block;
