@@ -1,16 +1,15 @@
 @import '../variables';
 
-a{
- color:$secondaryAnthracite1;
-}
-
+a,
 a:link{
- color:$secondaryAnthracite1;
+ color:$secondaryOrange1;
+ text-decoration: none;
 }
 
 a:visited{
- color:$secondaryAnthracite1; 
+ color:$secondaryOrange2; 
+ text-decoration: none;
 }
 a:hover{
- text-decoration: none;
+ text-decoration: underline;
 }
