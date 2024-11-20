@@ -1,7 +1,7 @@
 const navParts = {
  "aboutme": {
   logo: "faLanguage",
-  title: "Tarina",
+  title: "Tarinani",
  },
  "myexperiences": {
   logo: "faLanguage",

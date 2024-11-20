@@ -1,8 +1,11 @@
 @import '../variables';
 
+
 footer{
  background-color: $secondaryAnthracite2;
- border-bottom-left-radius:  20px;
- border-bottom-right-radius:  20px;
- margin-top: 2vh;
+ border-bottom-left-radius: 2vw;
+ border-bottom-right-radius: 2vw;
+ margin-bottom: 2vh;
+ text-align: center;
+ min-height:2vw;
 }

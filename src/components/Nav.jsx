@@ -20,7 +20,7 @@ function Nav(){
   const logo = iconMapping[part];
 
   return (
-    <a href={part}><li>
+    <a key={index} href={part}><li>
      <i>{logo && <FontAwesomeIcon icon={logo} />}</i><div>{data.title}</div>
     </li></a>
   )

@@ -1,0 +1,16 @@
+@import '../variables';
+
+.AllAboutMe{
+ width:90%;
+ background-color:hsla(0, 100%, 100%, 0.8);
+ margin:auto;
+ margin-bottom:5%;
+ padding:1%;
+ border-radius: 1vw;
+ overflow: hidden;
+ h2{
+  display: block;
+  width:100%;
+  text-align: center;
+ }
+}

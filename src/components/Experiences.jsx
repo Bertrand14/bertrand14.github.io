@@ -3,7 +3,6 @@ import {works,schools} from './../assets/data/experiences'
 
 function GetInfos({infos}){
  const date = (infos.enddate) ? new Date(`01.${infos.enddate}`) : new Date()
- console.log(date)
  return(
   <>
    <h3 className='date'>{date.getFullYear()}</h3>
@@ -20,7 +19,9 @@ function GetInfos({infos}){
 
 function WorkExperiences(){
  let allWorks = works.map((work, index) => 
-  <div className='resumeExperience' key={index}><GetInfos infos={work}/></div>
+  <div className='resumeExperience' key={index}>
+   <GetInfos infos={work} />
+  </div>
  );
 
  return (
@@ -33,7 +34,9 @@ function WorkExperiences(){
 
 function SchoolExperiences(){
  let allSchools = schools.map((school, index) => 
-  <div className='resumeExperience' key={index}><GetInfos infos={school}/></div>
+  <div className='resumeExperience' key={index}>
+   <GetInfos infos={school} />
+  </div>
  );
 
  return (

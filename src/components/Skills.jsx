@@ -56,8 +56,7 @@ function AllSkills() {
   return (
     <div key={index} id={category} className="skillCategory">
       <h3>
-        {logo && <FontAwesomeIcon icon={logo} />}
-        {category}
+        {logo && <FontAwesomeIcon icon={logo} />} {category}
       </h3>
       <table className="knowledgeInfos">
        <tbody>

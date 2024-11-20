@@ -28,6 +28,7 @@ body{
  box-shadow: 0 0 20px black;
 }
 
+p{ line-height: 2rem;text-align: justify;margin-bottom: 2rem;}
 @media screen and (max-width: 800px) {
  #root{
   width:95vw;
