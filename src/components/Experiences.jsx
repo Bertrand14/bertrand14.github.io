@@ -5,12 +5,12 @@ function GetInfos({infos}){
  const date = (infos.enddate) ? new Date(`01.${infos.enddate}`) : new Date()
  return(
   <>
-   <h3 className='date'>{date.getFullYear()}</h3>
+   <div className='date'>{date.getFullYear()}</div>
    <div className='thumbnail'>
     <div className='image'><img src={infos.img} alt={infos.place} title={infos.place}/></div>
     <div className='infos'>
      <h4 className='place'><a href={infos.link} target="_blank" >{infos.place}</a></h4>
-     <h5 className='title'>{infos.title}</h5>
+     <span className='title'>{infos.title}</span>
     </div>
    </div>
   </>

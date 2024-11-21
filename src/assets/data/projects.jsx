@@ -45,27 +45,40 @@ const online = [
 
 const gitHub = [
  {
-  title: "",
-  link:"",
-  image:"",
-  technologies:["",],
-  date:"",
+  title: "Ohimaan marjatila",
+  link:"https://github.com/tredu/html-ja-css-Bertrand14/tree/main/harjoitukset/Harjoitus3",
+  image:"src/assets/images/projects/ohimaan-marjatila.png",
+  technologies:["HTML", "CSS"],
+  date:"10.2024",
   description:"",
-  keypoints: ["",],
+  keypoints: [
+   "Suunnittele marjatilalle sopiva verkkosivun ulkoasu AdobeXD:n avulla. Suunnittele jokaiselle kolmelle sivulle versio tietokonenäytölle ja kännykkänäytölle.",
+   "Luo sitä varten Gitissä olevan Harjoitukset-kansion sisään oma kansio nimeltään Harjoitus 3. Siellä pääsivun nimen kuuluu olla index.html. Muille sivuille sopii nimeksi esimerkiksi tilaus.html ja yhteystiedot.html. Lisää myös kaikille sivuille yhteinen CSS-tiedosto ja linkitä se jokaiselle sivulle. Jos sivullasi on paljon kuvia, voit tehdä niille oman kansion tähän kansioon.",
+   "Tee ensin etusivu ja muotoile ne oman suunnitelmasi mukaisesti.",
+   "Tee sitten toiset kaksi sivua (voit kopioida header-osion, navigaation ja footer-osion koodin). Laita navigaation linkit viemään sivuston toisille sivuille. Jos ne ovat samassa kansiossa, pelkkä tiedoston nimi riittää.",
+   "Tee sivuista responsiiviset eli että ne toimivat niin tietokoneen kuin mobiililaitteenkin näytöllä.",
+  ],
   status: "",
  },
 ]
 
 const standBy = [
  {
-  title: "",
+  title: "PrésenceGuard",
   link:"",
   image:"",
-  technologies:["",],
-  date:"",
-  description:"",
-  keypoints: ["",],
-  status: "",
+  technologies:["HTML", "SCSS", "REACT", "PostgreSQL", "Node.js"],
+  date:"2025?",
+  description:"PrésenceGuard est une application web de gestion des présences des enfants dans les garderies, permettant aux employés de suivre les arrivées et départs en temps réel. Elle offre également aux administrateurs la possibilité de gérer les fiches des enfants, de générer des rapports de présence et de gérer les utilisateurs, tout en garantissant un accès sécurisé et personnalisé selon les rôles.",
+  keypoints: [
+   "Définir les besoins fonctionnels : Identifie les utilisateurs (employés et administrateurs) et les fonctionnalités clés, comme le suivi des présences, la gestion des fiches enfants, et la création de rapports, en différenciant les rôles et droits d’accès.",
+   "Créer une architecture système : Conçois la structure des données (enfants, utilisateurs, présences) et définis les routes API RESTful nécessaires pour interagir avec la base de données et gérer les fonctionnalités principales.",
+   "Prototyper l'interface utilisateur : Dessine des maquettes claires et intuitives avec des outils comme Figma pour organiser les pages : tableau de bord, formulaires, et système de navigation simplifié.",
+   "Développement : Crée le back-end (API avec Node.js et Express.js) pour gérer les données et l’authentification, puis développe le front-end (React.js) pour une interface utilisateur dynamique et connectée aux APIs.",
+   "Tests et optimisation : Teste l’application (unitaires et d’intégration) pour détecter les erreurs, optimise les performances, et renforce la sécurité, notamment pour l’authentification et la gestion des données sensibles.",
+   "Lancer et maintenir l’application : Déploie l’application sur des services comme Vercel et Heroku, assure un suivi régulier pour les mises à jour, et collecte les retours pour améliorer les fonctionnalités futures.",
+  ],
+  status: "Projet développé pour présentation DEMO. Le back-end doit être renforcer, notamment le chiffrage des données sensible (les mot de passe sont déjà hashé avec la fonction PHP.",
  },
 ]
 

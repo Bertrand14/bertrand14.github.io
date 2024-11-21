@@ -75,10 +75,10 @@ function AllSkills() {
   let allSkills = Object.entries(skills).map(([category, data], index) => {
     return (
       <div key={index} id={category} className="skillCategory">
-        <h3>
+        <h4>
           {/* Utilisation de data.logo pour afficher l'icône de la catégorie */}
           {data.logo ? <FontAwesomeIcon icon={data.logo} /> : null} {category}
-        </h3>
+        </h4>
         <table className="knowledgeInfos">
           <tbody>
             <GetInfos skill={data.items} />

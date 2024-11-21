@@ -1,21 +1,21 @@
 const navParts = {
- "aboutme": {
+ "AboutMe": {
   logo: "faLanguage",
   title: "Tarinani",
  },
- "myexperiences": {
+ "AllExperiences": {
   logo: "faLanguage",
   title: "Kokemukset",
  },
- "myskills": {
+ "AllSkills": {
   logo: "faLanguage",
   title: "Taidot",
  },
- "myprojects": {
+ "AllProjects": {
   logo: "faLanguage",
   title: "Projektini",
  },
- "contactme": {
+ "ContactMe": {
   logo: "faLanguage",
   title: "Contact",
  },

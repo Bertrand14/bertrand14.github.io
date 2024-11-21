@@ -22,13 +22,12 @@
   background-color:hsla(0, 100%, 100%, 0.8);  
   padding:1%;
   .knowledgeInfos{
-   width:100%;
    text-align: left;
    table-layout: auto;
    border-collapse: collapse;
    th{
-    padding: 1%;
-    min-width:calc(100% / 3);
+
+    white-space: nowrap;
    }
    td {
     width:calc(100% / 3 * 2);

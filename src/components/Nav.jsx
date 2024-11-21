@@ -5,24 +5,21 @@ import { faUser, faBriefcase, faThumbsUp, faProjectDiagram, faEnvelope, faBars }
 
 // Dictionnaire pour mapper les catégories aux icônes appropriées
 const iconMapping = {
-  "aboutme": faUser,
-  "myexperiences": faBriefcase,
-  "myskills": faThumbsUp,
-  "myprojects": faProjectDiagram,
-  "contactme": faEnvelope,
+  "AboutMe": faUser,
+  "AllExperiences": faBriefcase,
+  "AllSkills": faThumbsUp,
+  "AllProjects": faProjectDiagram,
+  "ContactMe": faEnvelope,
   "smallMenu":faBars,
 };
 
-
-
 function Nav(){
+  const [page, getPage] = useState("AboutMe")
   let allNavParts = Object.entries(navParts).map(([part, data], index) => {
   const logo = iconMapping[part];
 
   return (
-    <a key={index} href={part}><li>
-     <i>{logo && <FontAwesomeIcon icon={logo} />}</i><div>{data.title}</div>
-    </li></a>
+      <li key={index} onClick={()=>{getPage({part})}}><i>{logo && <FontAwesomeIcon icon={logo} />}</i><div>{data.title}</div></li>
   )
   })
 
@@ -35,7 +32,6 @@ function Nav(){
         {allNavParts}
       </ul>
     </nav>
-
   )
 }
 export default Nav  
