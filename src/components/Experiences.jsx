@@ -10,7 +10,7 @@ function GetInfos({infos}){
    <div className='thumbnail'>
     <div className='image'><img src={infos.img} alt={infos.place} title={infos.place}/></div>
     <div className='infos'>
-     <h4 className='place'><a href={infos.link} target="_blank" >{infos.place}</a></h4>
+     <h5 className='place'><a href={infos.link} target="_blank" >{infos.place}</a></h5>
      <span className='title'>{infos.title}</span>
     </div>
    </div>

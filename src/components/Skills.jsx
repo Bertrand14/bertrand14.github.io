@@ -60,7 +60,7 @@ function Explanation(){
    <div>
      {Object.keys(explanations).map((title, index) => (
        <div key={index}>
-         <h2>{title}</h2>
+         <h3>{title}</h3>
          {explanations[title].map((paragraph, idx) => (
            <p key={idx}>{paragraph}</p>
          ))}

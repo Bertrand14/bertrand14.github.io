@@ -15,11 +15,11 @@ function GetInfos({infos}){
     <img src={infos.image} alt={infos.title} />
     <h4>{infos.title} ({infos.date})</h4>
     <p>{infos.description}</p>
-    <h4>Teknologiat</h4>
+    <h5>Teknologiat</h5>
     <p>{infos.technologies.join(", ")}</p>
-    <h4>Avainkohdat</h4>
+    <h5>Avainkohdat</h5>
     <ul className='keypoints'>{keypoints}</ul>
-    <h4>Tilanne ja mahdollinen kehitys</h4>
+    <h5>Tilanne ja mahdollinen kehitys</h5>
     <p>{infos.status}</p>
 
     <a href={infos.link} target="_blank" rel="noopener noreferrer">

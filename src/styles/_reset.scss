@@ -21,9 +21,11 @@ body{
 }
 
 p,ul{ line-height: 2rem;text-align: justify;margin-bottom: 2rem;}
+
 @media screen and (max-width: 800px) {
  #root{
   width:95vw;
   p,ul{ line-height: 1.5rem;text-align: justify;left: 1.5rem;}
  }
 }
+

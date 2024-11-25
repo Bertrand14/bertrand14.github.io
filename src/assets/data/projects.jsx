@@ -5,7 +5,7 @@ const online = [
   image:"src/assets/images/projects/cuisine-et-traditions.png",
   technologies:["HTML", "CSS", "PHP (Back-End)", "MySQL (Tietokanta)",],
   date:"2009",
-  description:"src/assets/data/projects.jsxRanskalais-suomalaiselle gastronomialle omistettu alusta. Tämä projekti heijastaa aloitustani verkkokehityksessä keskittyen kulttuuriseen ja yhteisölliseen näkökulmaan.",
+  description:"Ranskalais-suomalaiselle gastronomialle omistettu alusta. Tämä projekti heijastaa aloitustani verkkokehityksessä keskittyen kulttuuriseen ja yhteisölliseen näkökulmaan.",
   keypoints: [
    "Johdonmukaisen HTML-rakenteen luominen.",
    "CSS-tyylien hallinta yksinkertaisiin mutta tyylikkäisiin asetteluihin.",
