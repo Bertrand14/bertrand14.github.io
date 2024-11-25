@@ -1,5 +1,6 @@
 import React from 'react';
 import {online, gitHub, standBy} from './../assets/data/projects';
+import NewArticle from './Article'
 
 function GetInfos({infos}){
  const keypointsContent = infos.keypoints
@@ -12,7 +13,7 @@ function GetInfos({infos}){
    <>
    <div className="project-card">
     <img src={infos.image} alt={infos.title} />
-    <h3>{infos.title} ({infos.date})</h3>
+    <h4>{infos.title} ({infos.date})</h4>
     <p>{infos.description}</p>
     <h4>Teknologiat</h4>
     <p>{infos.technologies.join(", ")}</p>
@@ -37,7 +38,7 @@ function OnlineProjects(){
 
  return (
   <div className="allProjects">
-  <h2>Työni toiminnassa</h2>
+  <h3>Työni toiminnassa</h3>
   <p>Nämä projektit edustavat valmiita ja julkaistuja töitäni, jotka ovat yleisön saatavilla.</p>
   <div className='projects online'>{allOnlines}</div>
  </div>
@@ -51,7 +52,7 @@ function SchoolProjects(){
 
  return (
   <div className="allProjects">
-  <h2>Tutkimus ja koulutus</h2>
+  <h3>Tutkimus ja koulutus</h3>
   <p>Nämä projektit heijastelevat harjoituksiani, prototyyppejäni tai harjoitteluni tulosta.</p>
   <div className='projects school'>{allGitHubs}</div>
  </div>
@@ -67,7 +68,7 @@ function StandbyProjects(){
 
  return (
   <div className="allProjects">
-  <h2>Matkalla tulevaisuuteen</h2>
+  <h3>Matkalla tulevaisuuteen</h3>
   <p>Nämä projektit ovat ideoita tai konsepteja, joita työskentelen tai jotka haluan toteuttaa tulevaisuudessa.</p>
   <div className='projects standby'>{allStandBy}</div>
  </div>
@@ -76,11 +77,7 @@ function StandbyProjects(){
 
 function AllProjects(){
  return (
-  <div className='ListOfAllProjects'>
-   <OnlineProjects />
-   <SchoolProjects />
-   <StandbyProjects />
-  </div>
+  <NewArticle id='ListOfAllProjects' title='Projektit' content={<><OnlineProjects /><SchoolProjects /><StandbyProjects /></>} />
  )
 }
 

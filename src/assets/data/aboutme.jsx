@@ -1,14 +1,14 @@
 const personnalinfos = {
  general: {
-  firstname: "Bertrand",
-  lastname: "Anne",
-  Adresse:{
+  name: "Bertrand Anne",
+  adresse:{
    address:"Lauttalanmutka 5",
    zip: "37100",
    city: "Nokia",
   },
   phone:"0404120977",
   email:"bertrand.tyo@famille-anne.fr",
+  y_tunnus:"3381647−9",
  },
  aboutme:{
   title: "Minusta",
@@ -22,4 +22,4 @@ const personnalinfos = {
  },
 }
 
-export {personnalinfos} 
+export  default personnalinfos

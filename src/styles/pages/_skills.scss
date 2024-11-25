@@ -1,54 +1,46 @@
 @import '../variables';
 
-.allSkills{
- width:90%;
- background-color:hsla(0, 100%, 100%, 0.8);
- margin:auto;
- margin-bottom:5%;
- padding:1%;
- border-radius: 1vw;
- overflow: hidden;
- h2{
-  display: block;
-  width:100%;
-  text-align: center;
- }
- > div{
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap:1vw;
- }
- .skillCategory{
-  background-color:hsla(0, 100%, 100%, 0.8);  
-  padding:1%;
-  .knowledgeInfos{
-   text-align: left;
-   table-layout: auto;
-   border-collapse: collapse;
-   th{
+#skills{
+ .listSkills{
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap:1vw;
+   margin-bottom:5%;
 
-    white-space: nowrap;
-   }
-   td {
-    width:calc(100% / 3 * 2);
-   }
-   .knowledgeStars{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width:10vw;
-    margin:auto 0;
-    div{
-     width:1.5vw;
-     height:1.5vw;
-     border-radius: 50%;
-     margin:0 2%;
-     &.starFull{background-color: gold;}
-     &.starEmpty{background-color: silver;}
+  .skillCategory{
+   background-color:hsla(0, 100%, 100%, 0.8);  
+   padding:1vw;
+   border-radius: 1vw;
+   .knowledgeInfos{
+    width:100%;
+    text-align: left;
+    table-layout: auto;
+    border-collapse: collapse;
+    th{
+     white-space: nowrap;
+    }
+    td {
+     width:calc(100% / 3 * 2);
+    }
+    .knowledgeStars{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     width:10vw;
+     margin:auto 0;
+     div{
+      width:1.5vw;
+      height:1.5vw;
+      border-radius: 50%;
+      margin:0 2%;
+      &.starFull{background-color: gold;}
+      &.starEmpty{background-color: silver;}
+     }
     }
    }
   }
  }
+
 }
 
 .explanations{

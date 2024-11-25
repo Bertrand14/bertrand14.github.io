@@ -1,7 +1,7 @@
 @import '../variables';
 @import '../keyframe';
 
-header{
+body #root > header{
  display:grid;
  grid-template-columns: 20vh auto;
  grid-template-rows: min-content;

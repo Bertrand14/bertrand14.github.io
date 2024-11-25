@@ -27,7 +27,7 @@ import {
   faNodeJs,
   faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
-
+import NewArticle from './Article'
 
 
 function GetInfos({ skill }) {
@@ -46,8 +46,7 @@ function GetInfos({ skill }) {
       <tr key={index}>
         <th className="knowledgeTitle">
           {/* Vérification si l'icône est définie */}
-          {infos.icon ? <FontAwesomeIcon icon={infos.icon} /> : null}
-          {infos.name}
+          {infos.icon ? <FontAwesomeIcon icon={infos.icon} /> : null} {infos.name}
         </th>
         <td className="knowledgeStars">{stars}</td>
       </tr>
@@ -76,8 +75,7 @@ function AllSkills() {
     return (
       <div key={index} id={category} className="skillCategory">
         <h4>
-          {/* Utilisation de data.logo pour afficher l'icône de la catégorie */}
-          {data.logo ? <FontAwesomeIcon icon={data.logo} /> : null} {category}
+          {data.logo ? <FontAwesomeIcon icon={data.logo} /> : null}{category}
         </h4>
         <table className="knowledgeInfos">
           <tbody>
@@ -85,20 +83,12 @@ function AllSkills() {
           </tbody>
         </table>
       </div>
-    );
-  });
+    )
+  })
 
   return (
-    <>
-      <div className="allSkills">
-        <h2>Osaaminen</h2>
-        <div>{allSkills}</div>
-      </div>
-      <div className="explanations">
-        <Explanation />
-      </div>
-    </>
-  );
+    <NewArticle id='skills' title='Osaaminen' content={<><div className="listSkills">{allSkills}</div> <Explanation /></>} />
+  )
 }
 
 

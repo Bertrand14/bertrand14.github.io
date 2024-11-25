@@ -1,26 +1,19 @@
 import React from 'react';
-import { personnalinfos } from '../assets/data/aboutme';
+import personnalinfos from '../assets/data/aboutme';
+import NewArticle from './Article'
 
 function CreateChapitre({ paragraphs }) {
-  const Chapitres = paragraphs.map((paragraph, index) => (
+ return paragraphs.map((paragraph, index) => (
     <p key={index}
      dangerouslySetInnerHTML={{ __html: paragraph }}> 
     </p>
   ));
-
-  return <>{Chapitres}</>;
 }
 
 function AboutMe() {
   const { title, paragraphs } = personnalinfos.aboutme;
-
   return (
-    <div className="AllAboutMe">
-      <div className="resumeAboutMe">
-        <h2>{title}</h2>
-        <CreateChapitre paragraphs={paragraphs} />
-      </div>
-    </div>
+    <NewArticle id='AllAboutMe' title={title} content={<CreateChapitre paragraphs={paragraphs} />} />
   );
 }
 

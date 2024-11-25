@@ -1,5 +1,6 @@
 import React from 'react';
 import {works,schools} from './../assets/data/experiences'
+import NewArticle from './Article'
 
 function GetInfos({infos}){
  const date = (infos.enddate) ? new Date(`01.${infos.enddate}`) : new Date()
@@ -26,7 +27,7 @@ function WorkExperiences(){
 
  return (
   <div className="AllExperiences works">
-   <h2>Työkokemukset</h2>
+   <h3>Työ</h3>
    <div className='experiences'>{allWorks}</div>
   </div>
  )
@@ -41,7 +42,7 @@ function SchoolExperiences(){
 
  return (
   <div className="AllExperiences studies">
-  <h2>Koulutukset</h2>
+  <h3>Koulutus</h3>
   <div className='experiences'>{allSchools}</div>
  </div>
  )
@@ -49,10 +50,7 @@ function SchoolExperiences(){
 
 function AllExperiences(){
  return (
-  <div className='ListOfAllExperiences'>
-   <WorkExperiences />
-   <SchoolExperiences />
-  </div>
+  <NewArticle id='ListOfAllExperiences' title='Kokemukseni' content={<><WorkExperiences /> <SchoolExperiences /> </>} />
  )
 }
 export {WorkExperiences, SchoolExperiences,AllExperiences}
