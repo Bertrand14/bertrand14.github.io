@@ -3,18 +3,19 @@
 
 body #root > header{
  display:grid;
- grid-template-columns: 20vh auto;
+ grid-template-columns: 1fr 4fr;
  grid-template-rows: min-content;
  grid-template-areas: "picture title";
+ justify-content: center;
+ align-items: center;
  background-color: $secondaryAnthracite2;
  border-top-left-radius: 2vw;
  border-top-right-radius: 2vw;
- margin-bottom: 2vh;
- text-align: center;
  a{
   grid-area: picture;
-  width:20vh;
-  height:20vh;
+
+  aspect-ratio: 1/1;
+  margin: 0 auto;
   .bubbleEffect {
    position: relative;    
    display: inline-block;
@@ -52,7 +53,6 @@ body #root > header{
  h1{
   grid-area: title;
   text-shadow: 1px 1px 0 white;
-  margin:auto;
  }
 }
 

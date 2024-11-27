@@ -5,29 +5,25 @@ nav{
  top:0;
  z-index:100;
  margin:1vw 0;
- ul.smallScreen{display:none;}
+ width:100%;
  ul{
   display:grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-auto-flow: column;
   justify-items: center;
   list-style-type: none;
-  gap:5vw;
-  width:95%;
-  margin:auto;
   li{
    background-color: $thirdYellow2;
    color:$secondaryAnthracite1;
-   border-radius: 5px;
+   border-radius: 1vw;
    font-weight: bold;
    text-align: center;
    box-shadow: none;
    cursor: pointer;
    transition:all 250ms ease-in-out;
    line-height: 1rem;
-   padding:1vh 0;
-   width:100%;
+   padding:4vh 2vw;
    i{
-    font-size: 1.5rem;
+    margin: auto;
    }
    &:hover{
     box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
@@ -43,23 +39,14 @@ nav{
 @media screen and (max-width: 800px) {
  nav{
   position:fixed;
-  top:100vh;
+  top:auto;
   bottom:0;
-  width:100vw;
-  ul.largeScreen{display:none};
-  ul.smallScreen{
-   position: fixed;
-   bottom:0;
-   display:grid;
-   gap:5vw;
+  left:0;
+  ul{
    li{
+    padding:2vw;
     border-radius: 50%;
-    width:8vw;
-    height:8vw;
-    padding: 2%;
-    font-size: 4vw;
-    div{display:none;}
-
+    span{display:none;}
    }
   }
  }
