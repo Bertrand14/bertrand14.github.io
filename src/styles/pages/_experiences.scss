@@ -41,6 +41,7 @@
    .thumbnail{
     display:grid;
     grid-template-columns: 1fr;
+    padding:0 0.5vw;
     .image{
      display: flex;
      justify-content: center;
