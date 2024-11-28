@@ -8,6 +8,7 @@
 
 *{
  font-family: "Roboto", "Lora", sans-serif;
+ font-size: 1.1vw;
 }
 
 
@@ -30,7 +31,8 @@ h4{font-size: 2vw;}
 h5{font-size: 1.5vw;}
 h6{font-size: 1vw;}
 
-@media screen and (max-width: 800px) {
- h1, h2, h3, h4, h5, h6{font-size: 1.2rem;}
 
+@media screen and (max-width: 800px) {
+ *{font-size: 3vw;}
+ h1, h2, h3, h4, h5, h6{font-size: 2rem;}
 }
