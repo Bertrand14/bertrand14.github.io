@@ -10,6 +10,6 @@ a:visited{
  color:$secondaryOrange2; 
  text-decoration: none;
 }
-a:hover{
+a:not(ul a):hover{
  text-decoration: underline;
 }

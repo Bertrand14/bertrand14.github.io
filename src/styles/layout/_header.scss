@@ -13,17 +13,19 @@ body #root > header{
  border-top-right-radius: 2vw;
  a{
   grid-area: picture;
-
   aspect-ratio: 1/1;
   margin: 0 auto;
+  text-align: center;
   .bubbleEffect {
-   position: relative;    
-   display: inline-block;
-   width:90%;
-   height:90%;
+   position: relative;
+   top: 50%;
+   display:inline-block;
+   width:60%;
+   aspect-ratio: 1/1;
    border-radius: 50%;
    overflow: hidden;
    box-shadow: 0 2vh 1vh -1vh black ;
+   transform: translateY(-50%);
    &:after {
     content: '';
     position: absolute;

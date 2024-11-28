@@ -1,5 +1,5 @@
 @keyframes float {
- 0% {transform: translate(0,0) scale(1,1);}
- 50% {transform: translate(0,1vw) scale(1.2,1);}
- 100% {transform: translate(0,0) scale(1,1);}
+ 0% {transform: translate(0,-50%) scale(1,1);}
+ 50% {transform: translate(0,calc(-50% + 1vw)) scale(1.2,1);}
+ 100% {transform: translate(0,-50%) scale(1,1);}
 }
