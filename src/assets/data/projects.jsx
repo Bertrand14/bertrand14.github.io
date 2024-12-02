@@ -2,7 +2,7 @@ const online = [
  {
   title: "Cuisine et Traditions",
   link:"https://cuisine-et-traditions.com",
-  image:"src/assets/images/projects/cuisine-et-traditions.png",
+  image:"./src/assets/images/projects/cuisine-et-traditions.png",
   technologies:["HTML", "CSS", "PHP (Back-End)", "MySQL (Tietokanta)",],
   date:"2009",
   description:"Ranskalais-suomalaiselle gastronomialle omistettu alusta. Tämä projekti heijastaa aloitustani verkkokehityksessä keskittyen kulttuuriseen ja yhteisölliseen näkökulmaan.",
@@ -17,7 +17,7 @@ const online = [
  {
   title: "Martinin Herkut",
   link:"https://martininherkut.net",
-  image:"src/assets/images/projects/martinin-herkut.png",
+  image:"./src/assets/images/projects/martinin-herkut.png",
   technologies:["HTML", "CSS", "JavaScript (Vanilla)", "PHP (Back-End)", "MySQL (Tietokanta)",],
   date:"2011",
   description:"Martinin Herkut syntyi halusta jakaa intohimoni ranskalaiseen keittiöön Suomessa. Nähtyäni ystävieni keskuudessa kasvavan kiinnostuksen kotitekoisia ruokiani kohtaan päätin luoda yksinkertaisen ja käyttäjäystävällisen alustan, jonka avulla asiakkaat voivat tilata ranskalaisia ​​erikoisuuksia suoraan kotoa. Tämä projekti oli myös kunnianosoitus pojalleni Martinille, joka inspiroi minua koko sen suunnittelussa.",
@@ -30,7 +30,7 @@ const online = [
  {
   title: "Korpot t:mi",
   link:"https://korpot.org",
-  image:"src/assets/images/projects/korpot.png",
+  image:"./src/assets/images/projects/korpot.png",
   technologies:["React", "SASS", "Node.js (Back-End)", "SQL (Tietokanta),"],
   date:"2023",
   description:"Korpot.org on vuonna 2023 perustetun yritykseni Korpot t:mi digitaalinen laajennus tukemaan koulutusvaikeuksissa olevia perheitä. Sivuston tavoitteena on tarjota selkeä ja ammattimainen käyttöliittymä, jossa asiakkaat voivat oppia palveluistani, käyttää koulutusresursseja ja varata valmennusistuntoja. Päätavoitteena on luoda aito ja vakuuttava yhteys samalla kun tarjotaan intuitiivinen digitaalinen ratkaisu.",
@@ -47,7 +47,7 @@ const gitHub = [
  {
   title: "Ohimaan marjatila",
   link:"https://github.com/tredu/html-ja-css-Bertrand14/tree/main/harjoitukset/Harjoitus3",
-  image:"src/assets/images/projects/ohimaan-marjatila.png",
+  image:"./src/assets/images/projects/ohimaan-marjatila.png",
   technologies:["HTML", "CSS"],
   date:"10.2024",
   description:"",
