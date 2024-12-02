@@ -3,9 +3,9 @@
 
 body #root > header{
  display:grid;
- grid-template-columns: 1fr 4fr;
+ grid-template-columns: 1fr auto 1fr;
  grid-template-rows: min-content;
- grid-template-areas: "picture title";
+ grid-template-areas: "picture title nothing";
  justify-content: center;
  align-items: center;
  background-color: $secondaryAnthracite2;
