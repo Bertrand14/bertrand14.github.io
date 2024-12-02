@@ -10,7 +10,7 @@ export default defineConfig({
       targets: [
         {
           src: 'src/assets/images/*',
-          dest: 'assets/images', // Copie dans le répertoire de build final
+          dest: 'src/assets/images', // Copie dans le répertoire de build final
         },
       ],
     }),

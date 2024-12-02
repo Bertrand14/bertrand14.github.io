@@ -2,7 +2,7 @@ const works = [
  {
   place: "Hatanpään koulu",
   link:"https://www.tampere.fi/hatanpaan-koulu/hatanpaan-koulun-henkilokunta#haapakujan-koulutalo-vuosiluokat-1-6-",
-  img:`${import.meta.env.BASE_URL}/assets/images/workplaces/hatanpaan_koulu.png`,
+  img:"./src/assets/images/workplaces/hatanpaan_koulu.png",
   city:"Tampere",
   startdate:"08.2023",
   enddate:"",
@@ -14,7 +14,7 @@ const works = [
  {
   place: "Hatanpään koulu",
   link:"https://www.tampere.fi/hatanpaan-koulu/hatanpaan-koulun-henkilokunta#haapakujan-koulutalo-vuosiluokat-1-6-",
-  img:`${import.meta.env.BASE_URL}/assets/images/workplaces/hatanpaan_koulu.png`,
+  img:"./src/assets/images/workplaces/hatanpaan_koulu.png",
   city:"Tampere",
   startdate:"08.2022",
   enddate:"06.2023",
@@ -26,7 +26,7 @@ const works = [
  {
   place: "Hatanpään koulu",
   link:"https://www.tampere.fi/hatanpaan-koulu/hatanpaan-koulun-henkilokunta#haapakujan-koulutalo-vuosiluokat-1-6-",
-  img:`${import.meta.env.BASE_URL}/assets/images/workplaces/hatanpaan_koulu.png`,
+  img:"./src/assets/images/workplaces/hatanpaan_koulu.png",
   city:"Tampere",
   startdate:"03.2022",
   enddate:"06.2022",
@@ -38,7 +38,7 @@ const works = [
  {
   place: "Alhoniityn koulu",
   link:"https://www.nokiankaupunki.fi/varhaiskasvatus-ja-koulutus/perusopetus/peruskoulut/alhoniityn-koulu-1-6-ja-7-9/",
-  img:`${import.meta.env.BASE_URL}/assets/images/workplaces/alhoniityn-koulu-logo.png`,
+  img:"./src/assets/images/workplaces/alhoniityn-koulu-logo.png",
   city:"Nokia",
   startdate:"08.2020",
   enddate:"06.2021",
@@ -50,7 +50,7 @@ const works = [
   {
    place: "Sofiakylä Oy",
    link:"https://sofiakyla.fi/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/sofiakyla-logo.png`,
+   img:"./src/assets/images/workplaces/sofiakyla-logo.png",
    city:"Nokia",
    startdate:"09.2018",
    enddate:"08.2020",
@@ -62,7 +62,7 @@ const works = [
   {
    place: "Nuolialan koulu",
    link:"https://www.pirkkala.fi/nuolialan-koulu/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/nuolialan-koulu-logo.png`,
+   img:"./src/assets/images/workplaces/nuolialan-koulu-logo.png",
 	city:"Pirkkala",
    startdate:"08.2015",
    enddate:"06.2018",
@@ -75,7 +75,7 @@ const works = [
   {
    place: "Seuturekry Oy",
    link:"https://tempore.fi/seuturekry-on-nyt-sarastia-rekry/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/sarastia-logo.png`,
+   img:"./src/assets/images/workplaces/sarastia-logo.png",
 	city:"Pirkkala",
    startdate:"03.2015",
    enddate:"08.2015",
@@ -85,7 +85,7 @@ const works = [
   {
    place: "Pirkkalan kunta",
    link:"https://www.pirkkala.fi/esi-ja-perusopetus/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/pirkkala-logo.png`,
+   img:"./src/assets/images/workplaces/pirkkala-logo.png",
 	city:"Pirkkala",
    startdate:"01.2015",
    enddate:"03.2015",
@@ -95,7 +95,7 @@ const works = [
   {
    place: "Tampereen Ranskalais-suomalainen päiväkoti ry",
    link:"https://tampereen-ranskalais-suomalainen-paivakotiyhdistys-ry.onverkossa.fi/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/kidsgarden-logo.png`,
+   img:"./src/assets/images/workplaces/kidsgarden-logo.png",
 	city:"Tampere",
    startdate:"08.2012",
    enddate:"12.2014",
@@ -105,7 +105,7 @@ const works = [
   {
    place: "Extremely Nice Job Oy",
    link:"https://eezy.fi/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/eezy-logo.png`,
+   img:"./src/assets/images/workplaces/eezy-logo.png",
 	city:"Tampere",
    startdate:"03.2011",
    enddate:"08.2011",
@@ -115,7 +115,7 @@ const works = [
   {
    place: "A-Service Oy",
    link:"",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/imterim-logo.png`,
+   img:"./src/assets/images/workplaces/imterim-logo.png",
 	city:"Tampere",
    startdate:"11.2010",
    enddate:"02.2011",
@@ -128,7 +128,7 @@ const works = [
   {
    place: "Opteam Oy",
    link:"https://barona.fi/barona/tiedotteet/opteam-liittyy-osaksi-barona-konsernia",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/opteam-logo.png`,
+   img:"./src/assets/images/workplaces/opteam-logo.png",
 	city:"Tampere",
    startdate:"01.2010",
    enddate:"10.2010",
@@ -144,7 +144,7 @@ const works = [
   {
    place: "Alsaco Oy",
    link:"https://media.licdn.com/dms/image/v2/C560BAQFbPbCTqQPfqw/company-logo_200_200/company-logo_200_200/0/1631424385579/extremely_nice_job_oy__enjoy__logo?e=1740009600&v=beta&t=SfShkxykFs8gzzsEfP4DLJ-N8Adl-myGXP0hJEx7tXs",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/wistub-alsace-logo.png`,
+   img:"./src/assets/images/workplaces/wistub-alsace-logo.png",
 	city:"Tampere",
    startdate:"06.2009",
    enddate:"07.2009",
@@ -154,7 +154,7 @@ const works = [
   {
    place: "Eurodisney Associés SCA",
    link:"https://www.disneylandparis.com/en-int/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/disney-logo.png`,
+   img:"./src/assets/images/workplaces/disney-logo.png",
 	city:"Chessy",
    startdate:"03.2005",
    enddate:"01.2008",
@@ -169,7 +169,7 @@ const works = [
   {
    place: "Eurodisney SCA",
    link:"https://www.disneylandparis.com/en-int/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/disney-logo.png`,
+   img:"./src/assets/images/workplaces/disney-logo.png",
 	city:"Chessy",
    startdate:"04.2004",
    enddate:"03.2005",
@@ -182,7 +182,7 @@ const works = [
   {
    place: "Mairie d'Hérouville-Saint-Clair",
    link:"https://www.herouville.net/services/petite-enfance-education-jeunesse/vie-scolaire/les-etablissements-scolaires",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/herouville-logo.png`,
+   img:"./src/assets/images/workplaces/herouville-logo.png",
 	city:"Hérouville-Saint-Clair",
    startdate:"02.2004",
    enddate:"04.2004",
@@ -195,7 +195,7 @@ const works = [
   {
    place: "Adecco",
    link:"https://www.adecco.fi/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/adecco-logo.png`,
+   img:"./src/assets/images/workplaces/adecco-logo.png",
 	city:"Mondeville",
    startdate:"08.2003",
    enddate:"02.2004",
@@ -208,7 +208,7 @@ const works = [
   {
    place: "Creyf’s Interim",
    link:"https://www.startpeople.fr/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/creyf-s-interim-logo.png`,
+   img:"./src/assets/images/workplaces/creyf-s-interim-logo.png",
 	city:"Caen",
    startdate:"01.2003",
    enddate:"09.2003",
@@ -224,7 +224,7 @@ const works = [
   {
    place: "Casino Cafeteria",
    link:"https://www.groupe-casino.fr/en/group/activities/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/casino-cafeteria-logo.png`,
+   img:"./src/assets/images/workplaces/casino-cafeteria-logo.png",
 	city:"Saint-Paul les Romans",
    startdate:"06.2002",
    enddate:"08.2002",
@@ -236,7 +236,7 @@ const works = [
   {
    place: "Eurodisney SAS",
    link:"https://www.disneylandparis.com/en-int/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/disney-logo.png`,
+   img:"./src/assets/images/workplaces/disney-logo.png",
 	city:"Chessy",
    startdate:"05.2001",
    enddate:"07.2001",
@@ -251,7 +251,7 @@ const works = [
   {
    place: "Eurodisney SAS",
    link:"https://www.disneylandparis.com/en-int/",
-   img:`${import.meta.env.BASE_URL}/assets/images/workplaces/disney-logo.png`,
+   img:"./src/assets/images/workplaces/disney-logo.png",
 	city:"Chessy",
    startdate:"09.2000",
    enddate:"10.2000",
@@ -266,7 +266,7 @@ const schools = [
    {
     place: "TREDU – Tampereen Seudun Ammattiopisto",
     link:"https://www.tredu.fi/hakijalle/koulutustarjonta/perustutkinnot/tieto-ja-viestintatekniikan-perustutkinto/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/tredu-logo.png`,
+    img:"./src/assets/images/studyplaces/tredu-logo.png",
     city:"Tampere",
     startdate:"10.2024",
     enddate:"",
@@ -276,7 +276,7 @@ const schools = [
    {
     place: "Atypiques Epanouis",
     link:"http://atypiques-epanouis.com/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/atypiques-logo.png`,
+    img:"./src/assets/images/studyplaces/atypiques-logo.png",
     city:"Etäkoulutus",
     startdate:"03.2023",
     enddate:"",
@@ -286,7 +286,7 @@ const schools = [
    {
     place: "Savonia",
     link:"https://www.savonia.fi/paivita-osaamistasi/taydennyskoulutus/avekki/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/savonia-logo.png`,
+    img:"./src/assets/images/studyplaces/savonia-logo.png",
     city:"Tampere",
     startdate:"10.2022",
     enddate:"11.2022",
@@ -296,7 +296,7 @@ const schools = [
    {
     place: "MAPA",
     link:"https://suomenmapakeskus.fi/mita-on-mapa-koulutus/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/mapa-logo.png`,
+    img:"./src/assets/images/studyplaces/mapa-logo.png",
     city:"Nokia",
     startdate:"03.2021",
     enddate:"03.2021",
@@ -306,7 +306,7 @@ const schools = [
    {
     place: "MAPA",
     link:"https://suomenmapakeskus.fi/mita-on-mapa-koulutus/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/mapa-logo.png`,
+    img:"./src/assets/images/studyplaces/mapa-logo.png",
     city:"Pirkkala",
     startdate:"11.2016",
     enddate:"11.2016",
@@ -316,7 +316,7 @@ const schools = [
    {
     place: "TREDU – Tampereen Seudun Ammattiopisto",
     link:"https://www.tredu.fi/koulutus/koulunkaynnin-ja-aamu-ja-iltapaivatoiminnan-ohjaaja/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/tredu-logo.png`,
+    img:"./src/assets/images/studyplaces/tredu-logo.png",
     city:"Tampere",
     startdate:"07.2013",
     enddate:"02.2015",
@@ -326,7 +326,7 @@ const schools = [
    {
     place: "Mannerheimin lastensuojeluliitto",
     link:"https://www.mll.fi/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/mll-logo.png`,
+    img:"./src/assets/images/studyplaces/mll-logo.png",
     city:"Tampere",
     startdate:"09.2012",
     enddate:"09.2012",
@@ -346,7 +346,7 @@ const schools = [
    {
     place: "Onnenkieli Oy",
     link:"https://onnenkieli.fi/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/onnenkieli-logo.png`,
+    img:"./src/assets/images/studyplaces/onnenkieli-logo.png",
     city:"Tampere",
     startdate:"07.2008",
     enddate:"11.2009",
@@ -356,7 +356,7 @@ const schools = [
    {
     place: "Ammattikorkeakoulu François RABELAIS",
     link:"https://rabelais.lycee.ac-normandie.fr/spip.php?article453",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/rabelais-logo.png`,
+    img:"./src/assets/images/studyplaces/rabelais-logo.png",
     city:"Hérouville-Saint-Clair",
     startdate:"09.2000",
     enddate:"08.2002",
@@ -366,7 +366,7 @@ const schools = [
    {
     place: "Lycée Augustin FRESNEL",
     link:"https://fresnel-caen.lycee.ac-normandie.fr/",
-    img:`${import.meta.env.BASE_URL}/assets/images/studyplaces/fresnel-logo.png`,
+    img:"./src/assets/images/studyplaces/fresnel-logo.png",
     city:"Caen",
     startdate:"09.1996",
     enddate:"07.2000",
