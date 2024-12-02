@@ -24,15 +24,14 @@ h4, h5, h6{
  color:$secondaryMint2;
 }
 
-h1{font-size: 6vw;}
-h2{font-size: 4vw;}
-h3{font-size: 3vw;}
-h4{font-size: 2vw;}
-h5{font-size: 1.5vw;}
+h1{font-size: 5vw;}
+h2{font-size: 3vw;}
+h3{font-size: 2vw;}
+h4{font-size: 1vw;}
+h5{font-size: 1vw;}
 h6{font-size: 1vw;}
 
 
 @media screen and (max-width: 800px) {
  *{font-size: 3vw;}
- h1, h2, h3, h4, h5, h6{font-size: 2rem;}
-}
+ h1, h2, h3, h4, h5, h6{font-size: 1.25em;}}

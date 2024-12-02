@@ -8,7 +8,7 @@ function GetInfos({infos}){
   <>
    <div className='date'>{date.getFullYear()}</div>
    <div className='thumbnail'>
-    <div className='image'><img src={infos.img} alt={infos.place} title={infos.place}/></div>
+    <div className='image'><img src={infos.img} alt={`${infos.place} - ${infos.title}`} title={infos.place}/></div>
     <div className='infos'>
      <h5 className='place'><a href={infos.link} target="_blank" >{infos.place}</a></h5>
      <span className='title'>{infos.title}</span>
