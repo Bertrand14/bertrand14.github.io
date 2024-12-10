@@ -16,6 +16,7 @@ export default defineConfig({
     }),
   ],
   base: '/', // Chemin relatif pour GitHub Pages
+  assetsInclude: ['**/*.jpg', '**/*.jpeg'],
   build: {
     assetsDir: 'assets',  // Personnalisez le répertoire des assets (par défaut 'assets')
   },

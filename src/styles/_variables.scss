@@ -1,3 +1,32 @@
+// Couleurs principales
+$blue-electric: #0D6EFD; // Bleu Électrique
+$orange-samba: #FF7F50; // Orange Samba
+$green-forest: #28A745; // Vert Forêt
+
+// Couleurs secondaires
+$light-gray: #F8F9FA; // Gris Clair
+$charcoal-black: #343A40; // Noir Charbon
+$beige-pale: #F4F4F4; // Beige Pâle
+
+// Couleurs auxiliaires pour des nuances ou états spécifiques
+$blue-electric-hover: lighten($blue-electric, 10%); // Bleu Électrique éclairci pour hover
+$orange-samba-hover: darken($orange-samba, 10%); // Orange Samba assombri pour hover
+$green-forest-hover: lighten($green-forest, 10%); // Vert Forêt éclairci pour hover
+$border-gray: #E0E0E0; // Gris pour les bordures ou diviseurs
+$error-red: #FF4D4D; // Rouge pour les états d'erreur
+$success-green: #3CB371; // Vert pour les états de succès
+
+// Couleurs de fond
+$background-light: $light-gray; // Fond clair général
+$background-dark: $charcoal-black; // Fond sombre pour contraste ou sections spécifiques
+
+// Couleurs de texte
+$text-primary: $charcoal-black; // Texte principal
+$text-secondary: darken($light-gray, 20%); // Texte secondaire (gris foncé)
+$text-link: $blue-electric; // Couleur des liens
+$text-link-hover: $blue-electric-hover; // Couleur des liens au survol
+
+
 $principalBlue1: #66b3ff;
 $principalBlue2: #99ccff;
 $principalGray1:#f0f0f0;
