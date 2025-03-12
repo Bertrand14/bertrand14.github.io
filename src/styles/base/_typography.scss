@@ -1,0 +1,13 @@
+
+h1, h2, h3 {
+ color: $blue-dark;
+}
+
+
+
+a {
+ color: $blue-dark;
+ &:hover {
+   color: $hover-blue;
+ }
+}

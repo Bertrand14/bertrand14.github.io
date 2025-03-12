@@ -10,13 +10,13 @@
 h1, h2, h3 {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
-  color: #80d7b1;
+  color: hsl(153, 52%, 24%);
   text-align: center;
 }
 
 h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  color: #a0e6a1;
+  color: hsl(153, 52%, 24%);
 }
 
 h1 {
@@ -56,18 +56,18 @@ h6 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #333333;
+  color: hsl(0, 0%, 20%);
 }
 
 body {
-  background-color: #66b3ff;
+  background-color: hsl(210, 100%, 70%);
 }
 
 #root {
   display: block;
   margin: 1% auto;
   width: 70vw;
-  background-color: #333333;
+  background-color: hsl(0, 0%, 20%);
   border-radius: 2vw;
   box-shadow: 0 0 20px black;
 }
@@ -90,12 +90,12 @@ p, ul:not(nav ul) {
 }
 a,
 a:link {
-  color: #ff7f50;
+  color: hsl(16, 100%, 66%);
   text-decoration: none;
 }
 
 a:visited {
-  color: #ffb085;
+  color: hsl(21, 100%, 76%);
   text-decoration: none;
 }
 
@@ -225,7 +225,7 @@ nav ul {
 }
 nav ul li {
   background-color: #f7f5a1;
-  color: #333333;
+  color: hsl(0, 0%, 20%);
   border-radius: 1vw;
   font-weight: bold;
   text-align: center;
@@ -498,14 +498,14 @@ form#sendMessage input:focus + label, form#sendMessage textarea:focus + label {
   top: 0;
   font-size: 1vw;
   transition: all 0.225s ease;
-  color: #ff7f50;
+  color: hsl(16, 100%, 66%);
 }
 form#sendMessage input:hover, form#sendMessage textarea:hover {
   background-color: hsla(0, 0%, 0%, 0.8);
-  color: #ff7f50;
+  color: hsl(16, 100%, 66%);
 }
 form#sendMessage input:hover ~ label, form#sendMessage textarea:hover ~ label {
-  color: #ff7f50;
+  color: hsl(16, 100%, 66%);
 }
 form#sendMessage textarea {
   height: 10em;
@@ -546,7 +546,7 @@ form#sendMessage button:active {
     padding: 4vw;
   }
   form#sendMessage input:focus + label, form#sendMessage textarea:focus + label {
-    background-color: #333333;
+    background-color: hsl(0, 0%, 20%);
     font-size: 3vw;
   }
 }/*# sourceMappingURL=main.css.map */
