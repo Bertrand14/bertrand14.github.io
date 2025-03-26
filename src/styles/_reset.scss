@@ -4,20 +4,32 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- color:$secondaryAnthracite1;
+ color:$grey-dark;
 }
 
-body{
- background-color: $principalBlue1;
+body {
+ background-color: $white;
+ color: $grey-dark;
+ font-family: 'Arial', sans-serif;
 }
 
 #root{
  display:block;
  margin: 1% auto;
  width:70vw;
- background-color:$secondaryAnthracite1;
+ background-color:$grey-dark;
  border-radius: 2vw;
  box-shadow: 0 0 20px black;
+}
+
+
+section {
+ background-color: $grey-light;
+}
+
+footer {
+ background-color: $black;
+ color: $white;
 }
 
 p, ul:not(nav ul){ line-height: 2rem;text-align: justify;margin-bottom: 2rem;}
@@ -28,4 +40,3 @@ p, ul:not(nav ul){ line-height: 2rem;text-align: justify;margin-bottom: 2rem;}
   p,ul:not(nav ul){ line-height: 1.5rem;text-align: justify;left: 1.5rem;}
  }
 }
-

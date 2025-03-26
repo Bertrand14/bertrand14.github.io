@@ -20,14 +20,14 @@ form#sendMessage{
         top:0;
         font-size: 1vw;
         transition: all 0.225s ease;
-        color:$secondaryOrange1;
+        color:$orange;
       }
     }
     &:hover{
     background-color: hsla(0, 0%, 0%, 0.8);
-    color:$secondaryOrange1;
+    color:$orange;
     & ~ label{
-      color:$secondaryOrange1;
+      color:$orange;
     }
     
     }
@@ -72,7 +72,7 @@ form#sendMessage{
    padding:4vw;
    &:focus{
     & + label{
-     background-color: $secondaryAnthracite1;
+     background-color: $grey-dark;
      font-size: 3vw;
     }
    }

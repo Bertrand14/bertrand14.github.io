@@ -64,12 +64,12 @@ const gitHub = [
 
 const standBy = [
  {
-  title: "PrésenceGuard",
+  title: "KerhoOlo",
   link:"",
-  image:"",
-  technologies:["HTML", "SCSS", "REACT", "PostgreSQL", "Node.js"],
+  image:"./src/assets/images/projects/kerhoolo.png",
+  technologies:["HTML", "SCSS", "REACT", "PostgreSQL", "Node.js", "Laravel"],
   date:"2025?",
-  description:"PresenceGuard on web-sovellus, jonka avulla voidaan hallita lasten päiväkotien läsnäoloa, jolloin työntekijät voivat seurata tuloja ja lähtöjä reaaliajassa. Se tarjoaa myös järjestelmänvalvojille mahdollisuuden hallita lasten asiakirjoja, luoda läsnäoloraportteja ja hallita käyttäjiä samalla, kun taataan turvallinen ja henkilökohtainen pääsy roolien mukaan.",
+  description:"KerhoOlo on web-sovellus, jonka avulla voidaan hallita lasten päiväkotien läsnäoloa, jolloin työntekijät voivat seurata tuloja ja lähtöjä reaaliajassa. Se tarjoaa myös järjestelmänvalvojille mahdollisuuden hallita lasten asiakirjoja, luoda läsnäoloraportteja ja hallita käyttäjiä samalla, kun taataan turvallinen ja henkilökohtainen pääsy roolien mukaan.",
   keypoints: [
    "Määrittele toiminnalliset tarpeet: Tunnistaa käyttäjät (työntekijät ja järjestelmänvalvojat) ja keskeiset toiminnot, kuten läsnäoloseurannan, lapsitietueiden hallinnan ja raportoinnin, eri rooleja ja käyttöoikeuksia.",
    "Luo järjestelmäarkkitehtuuri: Suunnittele tietorakenne (lapset, käyttäjät, läsnäolo) ja määritä RESTful API -reitit, joita tarvitaan tietokannan kanssa vuorovaikutukseen ja päätoimintojen hallintaan.",
