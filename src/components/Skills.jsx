@@ -1,4 +1,3 @@
-import React from "react";
 import {skills, explanations} from "./../assets/data/skills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -74,9 +73,7 @@ function AllSkills() {
   let allSkills = Object.entries(skills).map(([category, data], index) => {
     return (
       <div key={index} id={category} className="skillCategory">
-        <h4>
-          {data.logo ? <FontAwesomeIcon icon={data.logo} /> : null}{category}
-        </h4>
+        <h3>{category}</h3>
         <table className="knowledgeInfos">
           <tbody>
             <GetInfos skill={data.items} />

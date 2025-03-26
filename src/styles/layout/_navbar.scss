@@ -12,8 +12,8 @@ nav{
   justify-items: center;
   list-style-type: none;
   li{
-   background-color: $thirdYellow2;
-   color:$secondaryAnthracite1;
+   background-color: $yellow;
+   color:$grey-dark;
    border-radius: 1vw;
    font-weight: bold;
    text-align: center;
@@ -27,7 +27,7 @@ nav{
    }
    &:hover{
     box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.74);
-    background-color: $thirdYellow1;
+    background-color: $yellow;
     transform:scale(1.1)
    }
    &:active{

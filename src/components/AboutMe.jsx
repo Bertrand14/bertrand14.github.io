@@ -1,4 +1,3 @@
-import React from 'react';
 import personnalinfos from '../assets/data/aboutme';
 import NewArticle from './Article'
 

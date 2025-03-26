@@ -1,41 +1,22 @@
-// Couleurs principales
-$blue-electric: #0D6EFD; // Bleu Électrique
-$orange-samba: #FF7F50; // Orange Samba
-$green-forest: #28A745; // Vert Forêt
+// Couleur principale (Confiance et expertise)
+$blue-dark: hsl(210, 50%, 30%);  // Bleu foncé
 
-// Couleurs secondaires
-$light-gray: #F8F9FA; // Gris Clair
-$charcoal-black: #343A40; // Noir Charbon
-$beige-pale: #F4F4F4; // Beige Pâle
+// Couleur secondaire (Authenticité et enthousiasme)
+$orange: hsl(30, 100%, 50%);  // Orange (énergie et créativité) 
+$yellow: hsl(50, 100%, 50%);  // Jaune (enthousiasme et clarté)
 
-// Couleurs auxiliaires pour des nuances ou états spécifiques
-$blue-electric-hover: lighten($blue-electric, 10%); // Bleu Électrique éclairci pour hover
-$orange-samba-hover: darken($orange-samba, 10%); // Orange Samba assombri pour hover
-$green-forest-hover: lighten($green-forest, 10%); // Vert Forêt éclairci pour hover
-$border-gray: #E0E0E0; // Gris pour les bordures ou diviseurs
-$error-red: #FF4D4D; // Rouge pour les états d'erreur
-$success-green: #3CB371; // Vert pour les états de succès
+// Accent (Inspiration et innovation)
+$green-mint: hsl(150, 60%, 60%);  // Vert menthe (créativité et innovation)
+$violet-light: hsl(270, 50%, 70%);  // Violet pâle (inspiration et transformation)
 
-// Couleurs de fond
-$background-light: $light-gray; // Fond clair général
-$background-dark: $charcoal-black; // Fond sombre pour contraste ou sections spécifiques
+// Couleurs pour la lisibilité et la clarté
+$white: hsl(0, 0%, 100%);  // Blanc (clarté et simplicité)
+$grey-light: hsl(0, 0%, 95%);  // Gris clair (arrière-plan léger)
+$black: hsl(0, 0%, 10%);  // Noir (texte principal)
 
-// Couleurs de texte
-$text-primary: $charcoal-black; // Texte principal
-$text-secondary: darken($light-gray, 20%); // Texte secondaire (gris foncé)
-$text-link: $blue-electric; // Couleur des liens
-$text-link-hover: $blue-electric-hover; // Couleur des liens au survol
+// Texte
+$grey-dark: hsl(0, 0%, 30%);  // Gris foncé (texte principal)
 
-
-$principalBlue1: #66b3ff;
-$principalBlue2: #99ccff;
-$principalGray1:#f0f0f0;
-$principalGray2:#d3d3d3;
-$secondaryMint1: #80d7b1;
-$secondaryMint2:  #a0e6a1;
-$secondaryOrange1: #ff7f50;
-$secondaryOrange2: #ffb085;
-$secondaryAnthracite1:#333333; // font/nav
-$secondaryAnthracite2:#444444; // font/nav
-$thirdYellow1:#ffed66; //button
-$thirdYellow2:#f7f5a1; //button
+// Couleurs pour les éléments interactifs
+$hover-blue: hsl(210, 60%, 40%);  // Bleu hover (lorsque survolé)
+$hover-orange: hsl(30, 100%, 60%);  // Orange hover (lorsque survolé)
