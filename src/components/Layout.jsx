@@ -1,4 +1,3 @@
-import React from 'react'
 import { Outlet, Link } from "react-router-dom"
 import navParts from '../assets/data/layerParts'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,13 +11,15 @@ function Layout(){
    <nav>
     <ul>
      {navParts.map((infos, index) => (
-      <Link key={index} to={infos.path}>
-        <li id={infos.path}>
+      <li id={infos.path} key={index}>
+        <Link key={index} to={infos.path}>
+        
           {/* <i>{infos.logo && <FontAwesomeIcon icon={infos.logo} />}</i> */}
           <i> <FontAwesomeIcon icon={infos.logo} /> </i>
           <span>{infos.title}</span>
-      </li>
+      
       </Link>
+      </li>
      ))}
     </ul>
    </nav>

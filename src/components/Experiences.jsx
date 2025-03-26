@@ -1,4 +1,3 @@
-import React from 'react';
 import {works,schools} from './../assets/data/experiences'
 import NewArticle from './Article'
 
