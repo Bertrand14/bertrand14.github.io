@@ -1,5 +1,3 @@
-@import '../variables';
-
 .allProjects{
  background-color:hsla(0, 100%, 100%, 0.8);
  border-radius: 1vw;
@@ -23,9 +21,12 @@
    padding: 1.5vw;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    margin-bottom: 1.5vw;
-   img {
+   img,iframe {
      width: 100%;
      height: auto;
+     aspect-ratio: 16/9;
+     border-radius: 1vw;
+     margin-bottom: 10px;
      object-fit: cover;
      border-bottom: 1px solid #ddd;
    }

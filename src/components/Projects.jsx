@@ -12,7 +12,10 @@ function GetInfos({infos}){
   return(
    <>
    <div className="project-card">
-    <img src={infos.image} alt={infos.title} />
+    {infos.iframe 
+      ? <iframe src={infos.iframe} title={infos.title} alt={infos.title} ></iframe> 
+      : <img src={infos.image} alt={infos.title} />
+    }
     <h4>{infos.title} ({infos.date})</h4>
     <p>{infos.description}</p>
     <h5>Teknologiat</h5>
