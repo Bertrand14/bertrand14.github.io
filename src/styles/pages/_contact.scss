@@ -4,30 +4,35 @@ form#sendMessage{
   width:75%;
   background-color: hsla(0, 100%, 100%, 0.7);
   padding:1%;
+  label{
+    background-color: hsl(0, 0%, 50%);
+    padding: 0.1vw 0.5vw;
+    border-radius: 0.5vw;
+  }
   input, textarea{
     display:block;
     width:100%;
-    margin:auto;
+    margin:1.5em auto;
     padding:1.5vw;
-    border:none;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    border:2px solid hsl(0, 0%, 20%);;
+    background-color: hsl(0, 0%, 50%);
     border-radius: 0.5vw;
     &:focus{
-    outline: none;
-      & + label{
-        top:0;
-        font-size: 1vw;
-        transition: all 0.225s ease;
-        color:$orange;
-      }
+      outline: none;
+        & + label{
+          top:0;
+          font-size: 1vw;
+          transition: all 0.225s ease;
+          color:$orange;
+        }
     }
-    &:hover{
-    background-color: hsla(0, 0%, 0%, 0.8);
-    color:$orange;
-    & ~ label{
+    &:hover, &:active{ 
+      background-color: hsl(0, 0%, 20%);
       color:$orange;
-    }
-    
+    & ~ label{ 
+      background-color: hsl(0, 0%, 20%);
+      color:$orange;    
+      }
     }
   }
   textarea{

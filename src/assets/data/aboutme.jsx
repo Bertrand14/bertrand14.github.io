@@ -1,10 +1,8 @@
 const personnalinfos = {
  general: {
   name: "Bertrand Anne",
-  adress:`Lauttalanmutka 5\n37100\nNokia`,
-  phone:"0404120977",
-  email:"bertrand.tyo@famille-anne.fr",
-  y_tunnus:"3381647−9",
+  adress:`37100\nNokia`,
+
  },
  aboutme:{
   title: "Minusta",
