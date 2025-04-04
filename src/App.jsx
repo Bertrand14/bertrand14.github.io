@@ -4,13 +4,14 @@ import navParts from './assets/data/layerParts'
 
 export default function App(){
  return (
-  <BrowserRouter>
+  <BrowserRouter basename='/'>
+    
    <Routes>
     <Route path="/" element={<Layout />}>
-    <Route path="/" element={<Navigate to="/AboutMe" />} />
-    {navParts.map((nav) => (
-     <Route key={nav.path} path={nav.path} element={nav.components} />
-    ))}
+        <Route path="/" element={<Navigate to="/AboutMe" />} />
+        {navParts.map((nav) => (
+        <Route key={nav.path} path={nav.path} element={nav.components} />
+        ))}
     </Route>
    </Routes>
   </BrowserRouter>

@@ -101,7 +101,7 @@ const standBy = [
         title: "KerhoOlo",
         link:"",
         image:"./src/assets/images/projects/kerhoolo.png",
-        technologies:["HTML", "SCSS", "REACT", "PostgreSQL", "Node.js", "Laravel"],
+        technologies:["HTML", "SCSS", "REACT", "MySQL", "Node.js", "Laravel"],
         date:"2025?",
         description:"KerhoOlo on web-sovellus, jonka avulla voidaan hallita lasten päiväkotien läsnäoloa, jolloin työntekijät voivat seurata tuloja ja lähtöjä reaaliajassa. Se tarjoaa myös järjestelmänvalvojille mahdollisuuden hallita lasten asiakirjoja, luoda läsnäoloraportteja ja hallita käyttäjiä samalla, kun taataan turvallinen ja henkilökohtainen pääsy roolien mukaan.",
         keypoints: [
