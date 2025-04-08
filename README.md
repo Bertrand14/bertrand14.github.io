@@ -1,11 +1,11 @@
-# Bertrand | Fullstack Developer and HPI Family Advisor  
+# Bertrand | Fullstack Developer and HPI Family Advisor 
 
 ## 🧑‍💻 About Me  
 
 Hi, I'm Bertrand! My unique journey blends rich personal and professional exploration. Through my experiences, I've discovered my passion for technology and helping others, particularly families with highly gifted (HPI) children.  
 
 ### My Journey:  
-- 🎯 **Self-Discovery**: Diagnosed as HPI in 2023, a revelation that brought clarity to my life and my son's.  
+- 🎯 **Self-Discovery**: Strongly suspected of being HPI by a professional since 2019, a revelation that brought clarity to my life and my son's.  
 - 🔄 **Diverse Career**: From hospitality to web development, with some hands-on manual jobs in between.  
 - 🌱 **Personal Growth**: Always eager to learn and explore new opportunities for improvement.  
 
@@ -14,9 +14,9 @@ Today, I thrive on combining my creativity and technical skills in web developme
 ## 🚀 Skills  
 
 ### Web Development  
-- **Frontend**: HTML, CSS, JavaScript (and frameworks under exploration).  
-- **Backend**: Application development, exploring database management.  
-- **Tools**: GitHub ([Bertrand14](https://github.com/Bertrand14)), modern IDEs, and more.  
+- **Frontend**: HTML, CSS, JavaScript, React, Vue.js, SASS.  
+- **Backend**: Node.js, Express, SQL, API development.  
+- **Tools**: GitHub ([Bertrand14](https://github.com/Bertrand14)), Docker, Postman.  
 
 ### Other Fields  
 - **HPI Family Support**: Expertise in the challenges faced by gifted children and their families.  
@@ -39,6 +39,7 @@ Today, I thrive on combining my creativity and technical skills in web developme
 
 Thanks for taking the time to learn about me! 🚀
 
+---
 
 # Bertrand | Développeur Fullstack et Accompagnateur des Familles HPI  
 
@@ -47,18 +48,18 @@ Thanks for taking the time to learn about me! 🚀
 Salut, je m'appelle Bertrand ! Mon parcours unique mêle une riche exploration personnelle et professionnelle. À travers mes expériences, j'ai découvert ma passion pour la technologie et l'accompagnement des autres, en particulier des familles avec des enfants à haut potentiel intellectuel (HPI).  
 
 ### Mon cheminement :  
-- 🎯 **Découverte de soi** : Diagnostiqué HPI en 2023, une révélation qui a éclairé ma vision de moi-même et de mon fils.  
+- 🎯 **Découverte de soi** : Fortement suspecté d'être HPI par un professionnel depuis 2019, une révélation qui a éclairé ma vision de moi-même et de mon fils.  
 - 🔄 **Carrière diversifiée** : De la restauration au développement web, en passant par des métiers manuels.  
 - 🌱 **Développement personnel** : Passionné par l’apprentissage, toujours à la recherche de nouvelles opportunités pour évoluer.  
 
-Aujourd'hui, je m'épanouis en combinant ma créativité et mes compétences techniques dans le développement web, avec pour objectif de devenir un développeur fullstack accompli.  
+Aujourd'hui, je m'épanouïs en combinant ma créativité et mes compétences techniques dans le développement web, avec pour objectif de devenir un développeur fullstack accompli.  
 
 ## 🚀 Compétences  
 
 ### Développement Web  
-- **Frontend** : HTML, CSS, JavaScript (et frameworks en cours d'apprentissage).  
-- **Backend** : Développement d'applications, exploration des bases de données.  
-- **Outils** : GitHub ([Bertrand14](https://github.com/Bertrand14)), IDE modernes, et plus encore.  
+- **Frontend** : HTML, CSS, JavaScript, React, Vue.js, SASS.  
+- **Backend** : Node.js, Express, SQL, Développement d'API.  
+- **Outils** : GitHub ([Bertrand14](https://github.com/Bertrand14)), Docker, Postman.  
 
 ### Autres domaines  
 - **Accompagnement HPI** : Expertise dans les défis des familles et des enfants à haut potentiel.  
@@ -81,14 +82,16 @@ Aujourd'hui, je m'épanouis en combinant ma créativité et mes compétences tec
 
 Merci d'avoir pris le temps de me découvrir ! 🚀
 
-# Bertrand | Fullstack-kehittäjä ja HPI-perheiden neuvonantaja  
+---
+
+# Bertrand | Fullstack-kehittäjä ja Korkea Potentiaali -perheiden neuvonantaja  
 
 ## 🧑‍💻 Minusta  
 
-Hei, olen Bertrand! Uniikki matkani yhdistää rikkaan henkilökohtaisen ja ammatillisen tutkimusmatkan. Kokemusteni kautta olen löytänyt intohimoni teknologiaan ja muiden auttamiseen, erityisesti lahjakkaiden (HPI) lasten perheiden tukemiseen.  
+Hei, olen Bertrand! Uniikki matkani yhdistää rikkaan henkilökohtaisen ja ammatillisen tutkimusmatkan. Kokemusteni kautta olen löytänyt intohimoni teknologiaan ja muiden auttamiseen, erityisesti lahjakkaiden (Korkea Potentiaali) lasten perheiden tukemiseen.  
 
 ### Matkani:  
-- 🎯 **Itsensä löytäminen**: Sain HPI-diagnoosin vuonna 2023, joka toi selkeyttä elämääni ja poikani tilanteeseen.  
+- 🎯 **Itsensä löytäminen**: Vahvasti epäilty Korkea Potentiaali -diagnoosi ammattilaisen toimesta vuodesta 2019 alkaen, joka toi selkeyttä elämääni ja poikani tilanteeseen.  
 - 🔄 **Monipuolinen ura**: Vieraanvaraisuusalalta verkkokehitykseen, ja välissä myös käsityöpainotteisia töitä.  
 - 🌱 **Henkilökohtainen kasvu**: Aina innokas oppimaan ja löytämään uusia keinoja kehittyä.  
 
@@ -97,17 +100,17 @@ Tänä päivänä nautin luovuuden ja teknisten taitojeni yhdistämisestä verkk
 ## 🚀 Taitoni  
 
 ### Verkkokehitys  
-- **Frontend**: HTML, CSS, JavaScript (sekä tutkin parasta aikaa kehikkoja).  
-- **Backend**: Sovelluskehitys ja tietokantahallinnan tutkiminen.  
-- **Työkalut**: GitHub ([Bertrand14](https://github.com/Bertrand14)), modernit IDE:t ja paljon muuta.  
+- **Frontend**: HTML, CSS, JavaScript, React, Vue.js, SASS.  
+- **Backend**: Node.js, Express, SQL, Sovelluskehitys ja API-kehitys.  
+- **Työkalut**: GitHub ([Bertrand14](https://github.com/Bertrand14)), Docker, Postman.  
 
 ### Muut alueet  
-- **HPI-perheiden tuki**: Asiantuntemusta lahjakkaiden lasten ja heidän perheidensä kohtaamissa haasteissa.  
+- **Korkea Potentiaali -perheiden tuki**: Asiantuntemusta lahjakkaiden lasten ja heidän perheidensä kohtaamissa haasteissa.  
 - **Pehmeät taidot**: Empatia, luovuus, sopeutumiskyky.  
 
 ## 🎨 Arvoni  
 - **Innovaatio**: Rakennan ainutlaatuisia ja vaikuttavia digitaalisia kokemuksia.  
-- **Auttaminen**: Tuetaan HPI-perheitä tiedoillani ja omakohtaisilla kokemuksillani.  
+- **Auttaminen**: Tuetaan Korkea Potentiaali -perheitä tiedoillani ja omakohtaisilla kokemuksillani.  
 - **Täyttymys**: Teknisten ja inhimillisten näkökulmien tasapaino kaikessa, mitä teen.  
 
 ## 🌟 Tulevat tavoitteet  
@@ -116,8 +119,8 @@ Tänä päivänä nautin luovuuden ja teknisten taitojeni yhdistämisestä verkk
 3. **Jatkaa oppimista**: Syventää tietämystäni ja jakaa löytöjäni.  
 
 ## 📫 Ota yhteyttä  
-- **GitHub**: [Bertrand14](https://github.com/Bertrand14)  
-- **LinkedIn**: *(Lisää linkki, jos tarpeen)*  
-- **Sähköposti**: *(Sisällytä osoite, jos haluat)*  
+- **[GitHub](https://github.com/Bertrand14)**
+- **[LinkedIn](https://www.linkedin.com/in/bertrand-anne/)**
+- **[Sähköposti](mailto:bertrand.tyo@famille-anne.fr)**
 
 Kiitos, että käytit aikaa tutustuaksesi minuun! 🚀
