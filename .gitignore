@@ -1,5 +1,6 @@
 *node_*
 .*
+dist
 
 npm-debug.log
 package-lock.json
