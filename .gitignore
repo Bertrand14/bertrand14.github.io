@@ -1,13 +1,12 @@
-*node_*
-.*
+node_modules
 dist
 
+npm-debug.log*
 npm-debug.log
 package-lock.json
 yarn-error.log
 yarn-debug.log
 yarn.lock
-
 .DS_Store
 *.tgz
 *.log
