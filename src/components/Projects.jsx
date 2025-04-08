@@ -25,9 +25,14 @@ function GetInfos({infos}){
     <h5>Tilanne ja mahdollinen kehitys</h5>
     <p>{infos.status}</p>
 
-    <a href={infos.link} target="_blank" rel="noopener noreferrer">
-     Katso projekti
-    </a>
+    {infos.link 
+      ? <a href={infos.link} target="_blank" rel="noopener noreferrer">
+      Katso projekti
+     </a>
+      : ""
+    }
+    
+    
 
    </div>
    </>

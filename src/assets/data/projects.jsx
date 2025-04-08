@@ -30,7 +30,6 @@ const online = [
     {
         title: "Korpot t:mi v3.2",
         link:"https://korpot.org",
-        image:"./src/assets/images/projects/korpot.png",
         iframe:"https://korpot.org",
         technologies:["React", "SASS", "Node.js (Back-End)", "SQL (Tietokanta),"],
         date:"2023",
@@ -44,16 +43,16 @@ const online = [
     },
     {
         title: "Fanikauppa",
-        link:"https://bertrand14.github.io/fanikauppa/",
         iframe:"https://bertrand14.github.io/fanikauppa/",
         technologies:["HTML", "CSS", "REACT",],
         date:"2024",
-        description:"",
+        description:"Fanikauppa on ReactJS:llä ja Vitellä toteutettu yksisivuinen verkkosovellus (SPA), joka toimii fanituotteiden myyntiin suunniteltuna verkkokaupan prototyyppinä. Projektissa keskityttiin erityisesti ostoskorin tilamuutosten hallintaan käyttäen Reactin useState-hookia. Sovellus on julkaistu GitHub Pages -palvelussa.",
         keypoints:[
-            "Sivuston suunnittelu ja toteutus HTML:n, CSS:n ja JavaScriptin avulla.",
-            "Verkkokaupan kehittäminen NoSQL.",
-            "Verkkosivuston responsiivisuuden varmistaminen eri laitteilla.",
-            "Käyttäjäystävällisen käyttöliittymän luominen asiakkaille.",
+            "Tuotteiden selaus: Käyttäjä voi selata tuotteita listana tai karusellin avulla. Tuotetiedot esitetään selkeästi ja intuitiivisesti.",
+            "Tuotteiden lisääminen ostoskoriin: Tuotteita voi lisätä ostoskoriin valitsemalla halutun kappalemäärän. Ostoskorin kokonaishinta päivittyy reaaliaikaisesti.",
+            "Ostoskorin hallinta: Käyttäjä voi tarkastella, muokata ja tyhjentää ostoskorin sisältöä. Kaikki tilamuutokset hallitaan Reactin useState-hookin avulla.",
+            "Tilauksen vahvistaminen: Käyttäjää pyydetään syöttämään yhteystiedot (nimi, sähköposti, puhelinnumero, toimitusosoite), minkä jälkeen näytetään tilauksen yhteenveto ja kiitosviesti. Tämän jälkeen ostoskori ja tiedot nollautuvat.",
+            "Automaattinen alennusjärjestelmä tilauksen loppusumman mukaan.",
         ],
         status:"Projekti on vielä kehitysvaiheessa. Tavoitteena on lisätä lisää ominaisuuksia ja parantaa käyttöliittymää käyttäjäpalautteen perusteella.",
 
@@ -62,10 +61,9 @@ const online = [
     {
         title: "Lukuhaaste",
         link:"https://lukuhaaste.team25a.treok.io/",
-        image:"./src/assets/images/projects/lukuhaaste.png",
         iframe:"https://lukuhaaste.team25a.treok.io/",
         technologies:["HTML", "CSS", "Laravel", "JavaScript"],
-        date:"2024",
+        date:"2025",
         description:"Lukuhaaste on verkkosovellus, joka kannustaa käyttäjiä lukemaan kirjoja ja jakamaan kokemuksiaan. Käyttäjät voivat luoda henkilökohtaisia lukuhaasteita, seurata edistymistään ja jakaa suosituksia muille.",
         keypoints:[
             "Käyttäjät voivat luoda ja hallita henkilökohtaisia lukuhaasteitaan.",
@@ -99,7 +97,6 @@ const gitHub = [
 const standBy = [
     {
         title: "KerhoOlo",
-        link:"",
         image:"./src/assets/images/projects/kerhoolo.png",
         technologies:["HTML", "SCSS", "REACT", "MySQL", "Node.js", "Laravel"],
         date:"2025?",
@@ -114,6 +111,20 @@ const standBy = [
         ],
         status: "Projekti kehitetty DEMO-esityksiä varten. Taustaa on vahvistettava, erityisesti arkaluonteisten tietojen salausta, salasanat ovat jo tiivistetty PHP-toiminnolla.",
     },
+    {
+        title: "KotiTaito",
+        image:"./src/assets/images/projects/kotitaito.jpg",
+        technologies:["HTML", "SCSS", "REACT", "Node.js", "Laravel"],
+        date:"2025-2026?",
+        description:"KotiTaito on web-pohjainen sovellus, joka on suunniteltu tukemaan kotikoulua perheille Suomessa.",
+        keypoints: [
+            "Seurata ja hallita kotikoulun edistymistä",
+            "Jakaa tehtäviä ja kommentoida niitä",
+            "Luoda ja seurata oppimistavoitteita",
+            "Sovellus on suunniteltu joustavaksi ja helposti saavutettavaksi kaikille käyttäjille.",
+        ],  
+        status:"Projekti on tällä hetkellä kehitysvaiheessa ja on esitelty eräälle mahdolliselle asiakkaalle. Tämä projekti ei voi etenä ilman asiakkaan hyväksyntää ja sitoutumista, joten se on tällä hetkellä odotustilassa.",
+    }
 ]
 
 export {online, gitHub, standBy}
