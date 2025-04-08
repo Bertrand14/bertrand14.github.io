@@ -1,2 +1,15 @@
-node_*
+*node_*
 .*
+
+npm-debug.log
+package-lock.json
+yarn-error.log
+yarn-debug.log
+yarn.lock
+
+.DS_Store
+*.tgz
+*.log
+*.swp
+*.swo
+*.swn
