@@ -1,0 +1,10 @@
+@include generate-theme($colors-light, light);
+@include generate-theme($colors-dark, dark);
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        @each $key, $value in $colors-dark {
+            --#{$key}: #{$value};
+        }
+    }
+}

@@ -1,0 +1,22 @@
+// Espacement
+@function spacing($multiplier) {
+    @return $multiplier * 0.25rem;
+}
+
+// Media queries
+@mixin respond($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+// Génération thème
+@mixin generate-theme($theme-map, $theme-name) {
+    .#{$theme-name} {
+        @each $key, $value in $theme-map {
+            --#{$key}: #{$value};
+        }
+    }
+}

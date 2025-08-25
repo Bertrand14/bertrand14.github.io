@@ -1,0 +1,43 @@
+.high-contrast {
+    filter: contrast(1.5);
+}
+.large-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+.reduced-motion {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+.accessibility-panel {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: var(--surface, #fff);
+    border: 1px solid var(--border, #ccc);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 10000;
+
+    button {
+        padding: 0.5rem 1rem;
+        border-radius: 9999px;
+        border: none;
+        cursor: pointer;
+        background: var(--primary, #0077ff);
+        color: white;
+        font-weight: 600;
+
+        &:hover {
+            background: var(--secondary, #8855ff);
+        }
+    }
+}

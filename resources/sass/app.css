@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--background);
+  color: var(--neutral);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+header {
+  background-color: var(--surface);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--surface);
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: var(--secondary);
+}
+
+.home .section {
+  background-color: var(--background);
+  padding: 2rem 1rem;
+}
+
+.about .section {
+  background-color: var(--surface);
+  padding: 2rem 1rem;
+}
+
+.portfolio .section {
+  background-color: var(--surface);
+  padding: 2rem 1rem;
+}
+
+.contact .section {
+  background-color: var(--surface);
+  padding: 2rem 1rem;
+}
+
+.light {
+  --primary: hsl(210, 80%, 45%);
+  --secondary: hsl(280, 60%, 55%);
+  --accent: hsl(30, 90%, 55%);
+  --neutral: hsl(0, 0%, 20%);
+  --background: hsl(0, 0%, 98%);
+  --surface: hsl(0, 0%, 100%);
+  --border: hsl(0, 0%, 90%);
+}
+
+.dark {
+  --primary: hsl(210, 80%, 60%);
+  --secondary: hsl(280, 60%, 70%);
+  --accent: hsl(30, 90%, 70%);
+  --neutral: hsl(0, 0%, 95%);
+  --background: hsl(0, 0%, 10%);
+  --surface: hsl(0, 0%, 15%);
+  --border: hsl(0, 0%, 25%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: hsl(210, 80%, 60%);
+    --secondary: hsl(280, 60%, 70%);
+    --accent: hsl(30, 90%, 70%);
+    --neutral: hsl(0, 0%, 95%);
+    --background: hsl(0, 0%, 10%);
+    --surface: hsl(0, 0%, 15%);
+    --border: hsl(0, 0%, 25%);
+  }
+}
+.high-contrast {
+  filter: contrast(1.5);
+}
+
+.large-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+.accessibility-panel {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border, #ccc);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 10000;
+}
+.accessibility-panel button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  background: var(--primary, #0077ff);
+  color: white;
+  font-weight: 600;
+}
+.accessibility-panel button:hover {
+  background: var(--secondary, #8855ff);
+}/*# sourceMappingURL=app.css.map */
