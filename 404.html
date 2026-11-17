@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio on muuttanut – webontuli.fi</title>
+  <meta name="description" content="Tämä on Bertrandin portfolion vanha versio. Uusin versio löytyy osoitteesta webontuli.fi.">
+  <link rel="canonical" href="https://webontuli.fi/projektit">
+  <meta property="og:title" content="Portfolio on muuttanut – webontuli.fi">
+  <meta property="og:url" content="https://webontuli.fi/projektit">
+  <meta property="og:image" content="https://webontuli.fi/og-image.jpg">
+  <meta name="theme-color" content="#121420">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600|sora:600,700">
+  <noscript><meta http-equiv="refresh" content="10;url=https://webontuli.fi/projektit"></noscript>
+  <style>
+    :root {
+      --primary: hsl(14, 88%, 55%);
+      --primary-ink: hsl(14, 88%, 42%);
+      --fill-start: hsl(14, 88%, 44%);
+      --fill-end: hsl(14, 88%, 38%);
+      --on-primary: hsl(0, 0%, 100%);
+      --accent-ink: hsl(178, 62%, 28%);
+      --text: hsl(230, 15%, 18%);
+      --muted: hsl(230, 10%, 40%);
+      --bg: hsl(30, 25%, 97%);
+      --surface: hsl(0, 0%, 100%);
+      --surface-old: hsl(30, 15%, 94%);
+      --border: hsl(230, 12%, 88%);
+      --shadow: hsla(230, 30%, 20%, 0.08);
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: hsl(14, 92%, 63%);
+        --primary-ink: hsl(14, 92%, 63%);
+        --fill-start: hsl(14, 92%, 63%);
+        --fill-end: hsl(14, 92%, 70%);
+        --on-primary: hsl(232, 22%, 9%);
+        --accent-ink: hsl(178, 55%, 55%);
+        --text: hsl(220, 20%, 92%);
+        --muted: hsl(220, 12%, 68%);
+        --bg: hsl(232, 22%, 9%);
+        --surface: hsl(230, 20%, 13%);
+        --surface-old: hsl(232, 20%, 11%);
+        --border: hsl(230, 15%, 24%);
+        --shadow: hsla(230, 60%, 3%, 0.45);
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 2rem 1rem;
+      background: var(--bg);
+      color: var(--text);
+      font: 400 1rem/1.6 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    }
+    main { width: 100%; max-width: 34rem; }
+    .top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
+    .logo { width: 48px; height: 48px; border-radius: 12px; display: block; }
+    .langs { display: flex; gap: .25rem; }
+    .langs button {
+      font: inherit; font-size: .8125rem; font-weight: 600; letter-spacing: .04em;
+      color: var(--muted); background: none; border: 1px solid transparent;
+      border-radius: .5rem; padding: .25rem .5rem; cursor: pointer;
+    }
+    .langs button[aria-pressed="true"] { color: var(--text); border-color: var(--border); }
+    .langs button:hover { color: var(--text); }
+    .eyebrow {
+      display: inline-block; margin: 0 0 .75rem;
+      font-size: .8125rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--muted);
+    }
+    h1 {
+      margin: 0 0 .75rem;
+      font: 700 clamp(1.875rem, 6vw, 2.5rem)/1.15 'Sora', 'Instrument Sans', sans-serif;
+      letter-spacing: -.02em;
+      text-wrap: balance;
+    }
+    .lead { margin: 0 0 2rem; color: var(--muted); font-size: 1.0625rem; }
+    .compare { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: .75rem; }
+    .site {
+      display: grid; grid-template-columns: 1fr auto; gap: .125rem 1rem; align-items: baseline;
+      padding: 1rem 1.25rem; border-radius: 1rem; border: 1px solid var(--border);
+    }
+    .site .url { font-weight: 600; overflow-wrap: anywhere; }
+    .site .desc { grid-column: 1 / -1; font-size: .9375rem; color: var(--muted); }
+    .tag { font-size: .75rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+    .site.new {
+      background: var(--surface);
+      border-color: var(--primary);
+      box-shadow: 0 8px 24px var(--shadow);
+    }
+    .site.new .url { font-family: 'Sora', 'Instrument Sans', sans-serif; font-size: 1.125rem; }
+    .site.new .tag { color: var(--accent-ink); }
+    .site.old { background: var(--surface-old); }
+    .site.old .url { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1.5px; }
+    .site.old .tag { color: var(--muted); }
+    .cta {
+      position: relative; overflow: hidden;
+      display: flex; align-items: center; justify-content: center; gap: .5rem;
+      width: 100%; min-height: 3.25rem; padding: .875rem 1.5rem;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--fill-start), var(--fill-end));
+      color: var(--on-primary);
+      font: 600 1.0625rem/1.3 'Instrument Sans', system-ui, sans-serif;
+      text-align: center; text-decoration: none;
+      box-shadow: 0 6px 18px var(--shadow);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .cta:hover { transform: translateY(-1px); box-shadow: 0 10px 24px var(--shadow); }
+    .cta:active { transform: translateY(0); }
+    .cta:focus-visible, .langs button:focus-visible, .stay:focus-visible {
+      outline: 3px solid var(--primary); outline-offset: 3px;
+    }
+    .cta svg { flex: none; }
+    .progress {
+      position: absolute; left: 0; bottom: 0; height: 4px; width: 100%;
+      background: currentColor; opacity: .45;
+      transform-origin: left; transform: scaleX(0);
+    }
+    .running .progress { animation: fill 10s linear forwards; }
+    .stopped .progress { display: none; }
+    @keyframes fill { to { transform: scaleX(1); } }
+    .status { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .25rem .75rem; margin: 1rem 0 0; font-size: .9375rem; color: var(--muted); text-align: center; }
+    .stay {
+      font: inherit; font-weight: 600; color: var(--primary-ink);
+      background: none; border: 0; padding: .25rem; cursor: pointer;
+      text-decoration: underline; text-underline-offset: 3px;
+    }
+    .no-js .stay, .stopped .stay { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .running .progress { animation: none; }
+      .cta { transition: none; }
+      .cta:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <main id="page" class="no-js">
+    <div class="top">
+      <img class="logo" src="/apple-touch-icon.png" alt="Webontuli" width="48" height="48">
+      <nav class="langs" aria-label="Kieli / Language / Langue" hidden>
+        <button type="button" data-lang="fi" lang="fi">FI</button>
+        <button type="button" data-lang="en" lang="en">EN</button>
+        <button type="button" data-lang="fr" lang="fr">FR</button>
+      </nav>
+    </div>
+
+    <p class="eyebrow" data-t="eyebrow">Vanha versio · 2025</p>
+    <h1 data-t="title">Portfolioni on muuttanut</h1>
+    <p class="lead" data-t="lead">Tämä on portfolioni vanha versio. Sitä ei enää päivitetä, ja sen sisältö on vanhentunut.</p>
+
+    <ul class="compare">
+      <li class="site new">
+        <span class="url">webontuli.fi</span>
+        <span class="tag" data-t="newTag">Ajantasainen</span>
+        <span class="desc" data-t="newDesc">Uusimmat projektit, palvelut ja blogi.</span>
+      </li>
+      <li class="site old">
+        <span class="url">bertrand14.github.io</span>
+        <span class="tag" data-t="oldTag">Vanhentunut</span>
+        <span class="desc" data-t="oldDesc">Viimeksi päivitetty elokuussa 2025.</span>
+      </li>
+    </ul>
+
+    <a class="cta" id="cta" href="https://webontuli.fi/projektit">
+      <span data-t="cta">Katso portfolion uusin versio</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      <span class="progress" aria-hidden="true"></span>
+    </a>
+
+    <p class="status">
+      <span id="status">Sinut ohjataan automaattisesti 10 sekunnin kuluttua.</span>
+      <button type="button" class="stay" id="stay" data-t="stay">Jää tälle sivulle</button>
+    </p>
+  </main>
+
+  <script>
+    (function () {
+      var DELAY = 10;
+      var BASE = 'https://webontuli.fi';
+      var T = {
+        fi: {
+          doc: 'Portfolio on muuttanut – webontuli.fi',
+          eyebrow: 'Vanha versio · 2025',
+          title: 'Portfolioni on muuttanut',
+          lead: 'Tämä on portfolioni vanha versio. Sitä ei enää päivitetä, ja sen sisältö on vanhentunut.',
+          newTag: 'Ajantasainen',
+          newDesc: 'Uusimmat projektit, palvelut ja blogi.',
+          oldTag: 'Vanhentunut',
+          oldDesc: 'Viimeksi päivitetty elokuussa 2025.',
+          cta: 'Katso portfolion uusin versio',
+          stay: 'Jää tälle sivulle',
+          count: function (n) { return 'Sinut ohjataan automaattisesti ' + n + ' sekunnin kuluttua.'; },
+          stopped: 'Automaattinen ohjaus pysäytetty.',
+          going: 'Siirrytään webontuli.fi-sivustolle…',
+          path: '/projektit'
+        },
+        en: {
+          doc: 'My portfolio has moved – webontuli.fi',
+          eyebrow: 'Old version · 2025',
+          title: 'My portfolio has moved',
+          lead: 'This is an old version of my portfolio. It is no longer updated and its content is out of date.',
+          newTag: 'Up to date',
+          newDesc: 'Latest projects, services and blog.',
+          oldTag: 'Outdated',
+          oldDesc: 'Last updated in August 2025.',
+          cta: 'See the latest version of my portfolio',
+          stay: 'Stay on this page',
+          count: function (n) { return 'You will be redirected automatically in ' + n + (n === 1 ? ' second.' : ' seconds.'); },
+          stopped: 'Automatic redirect stopped.',
+          going: 'Going to webontuli.fi…',
+          path: '/en/projektit'
+        },
+        fr: {
+          doc: 'Mon portfolio a déménagé – webontuli.fi',
+          eyebrow: 'Ancienne version · 2025',
+          title: 'Mon portfolio a déménagé',
+          lead: 'Ceci est une ancienne version de mon portfolio. Elle n’est plus mise à jour et son contenu est dépassé.',
+          newTag: 'À jour',
+          newDesc: 'Derniers projets, services et blog.',
+          oldTag: 'Obsolète',
+          oldDesc: 'Dernière mise à jour en août 2025.',
+          cta: 'Voir la dernière version du portfolio',
+          stay: 'Rester sur cette page',
+          count: function (n) { return 'Redirection automatique dans ' + n + (n <= 1 ? ' seconde.' : ' secondes.'); },
+          stopped: 'Redirection automatique arrêtée.',
+          going: 'Redirection vers webontuli.fi…',
+          path: '/fr/projektit'
+        }
+      };
+
+      var page = document.getElementById('page');
+      var cta = document.getElementById('cta');
+      var status = document.getElementById('status');
+      var stay = document.getElementById('stay');
+      var langs = document.querySelector('.langs');
+      var lang = 'fi';
+      var remaining = DELAY;
+      var state = 'running';
+      var timer = null;
+
+      var prefs = navigator.languages || [navigator.language || 'fi'];
+      for (var i = 0; i < prefs.length; i++) {
+        var code = String(prefs[i]).slice(0, 2).toLowerCase();
+        if (T[code]) { lang = code; break; }
+      }
+
+      function target() { return BASE + T[lang].path; }
+
+      function renderStatus() {
+        var t = T[lang];
+        status.textContent = state === 'stopped' ? t.stopped : state === 'going' ? t.going : t.count(remaining);
+      }
+
+      function render() {
+        var t = T[lang];
+        document.documentElement.lang = lang;
+        document.title = t.doc;
+        var nodes = document.querySelectorAll('[data-t]');
+        for (var i = 0; i < nodes.length; i++) nodes[i].textContent = t[nodes[i].getAttribute('data-t')];
+        cta.href = target();
+        var buttons = langs.querySelectorAll('button');
+        for (var j = 0; j < buttons.length; j++) {
+          buttons[j].setAttribute('aria-pressed', buttons[j].getAttribute('data-lang') === lang ? 'true' : 'false');
+        }
+        renderStatus();
+      }
+
+      function stop() {
+        if (state !== 'running') return;
+        state = 'stopped';
+        clearInterval(timer);
+        page.classList.remove('running');
+        page.classList.add('stopped');
+        renderStatus();
+        status.setAttribute('role', 'status');
+        cta.focus();
+      }
+
+      var deadline = Date.now() + DELAY * 1000;
+      function tick() {
+        var left = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+        if (left !== remaining) { remaining = left; renderStatus(); }
+        if (left === 0) {
+          clearInterval(timer);
+          state = 'going';
+          renderStatus();
+          window.location.replace(target());
+        }
+      }
+
+      langs.addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-lang]');
+        if (!b) return;
+        lang = b.getAttribute('data-lang');
+        render();
+      });
+      stay.addEventListener('click', stop);
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') stop(); });
+
+      page.classList.remove('no-js');
+      page.classList.add('running');
+      langs.hidden = false;
+      render();
+      timer = setInterval(tick, 200);
+    })();
+  </script>
+</body>
+</html>
